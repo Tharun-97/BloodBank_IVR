@@ -3,47 +3,40 @@ package org.util;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.Properties;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 
 
 public class ConnectionPooling {
-
-	private String url = null;
+	String url = null;
 	String username = null;
 	String password = null;
-	String drivername = null;
-
-	private static BasicDataSource datasource = null;
 
 	public String propertyRead() throws IOException {
-
-		FileInputStream f = new FileInputStream(
-				"D:\\Spring Tool Workspace\\BloodBank\\src\\main\\resources\\application.properties");
+		FileInputStream f = new FileInputStream("D:/Workspace/BloodBank/data/JDBC.properties");
 
 		Properties p = new Properties();
 		p.load(f);
 
-		url = p.getProperty("spring.datasource.url");
-		username = p.getProperty("spring.datasource.username");
-		password = p.getProperty("spring.datasource.password");
-		drivername = p.getProperty("spring.datasource.driverClassName");
-		return url + username + password + drivername;
+		url = p.getProperty("url");
+		username = p.getProperty("username");
+		password = p.getProperty("password");
+		return url + username + password;
 
 	}
 
 	public BasicDataSource getConnectionDetails() {
-		if (datasource != null) {
-			return datasource;
-		}
-		datasource = new BasicDataSource();
+		BasicDataSource datasource = new BasicDataSource();
 
 		datasource.setUrl(url);
 		datasource.setUsername(username);
 		datasource.setPassword(password);
-		datasource.setDriverClassName(drivername);
+		datasource.setDriverClassName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 
 		datasource.setMinIdle(5);
 		datasource.setMaxIdle(10);
@@ -53,23 +46,35 @@ public class ConnectionPooling {
 
 	}
 
-	public Connection connect() throws SQLException, IOException {
-
-		if (datasource == null) {
-			propertyRead();
-		}
+	public ResultSet connectionPooling(String query) throws SQLException {
 
 		Connection connection = null;
+		Statement statement = null;
+		ResultSet resultSet = null;
 		try {
-			datasource = getConnectionDetails();
-			connection = datasource.getConnection();   
-			
-
+			connection = getConnectionDetails().getConnection();
 			System.out.println("Database Connected Succesfully");
 		} catch (Exception e) {
-			System.out.println(e.getMessage());
+			System.out.println(e.toString());
 		}
+		statement = connection.createStatement();
+		resultSet = statement.executeQuery(query);
 
-		return connection;
+		return resultSet;
+
+	}
+
+	public PreparedStatement DataInsert(String query) throws SQLException {
+		Connection connection = null;
+		PreparedStatement insert= null;
+		try {
+			connection = getConnectionDetails().getConnection();
+			System.out.println("Database Connected Succesfully");
+		} catch (Exception e) {
+			System.out.println(e.toString());
+		}
+		insert = connection.prepareStatement(query);
+		
+		return insert;
 	}
 }

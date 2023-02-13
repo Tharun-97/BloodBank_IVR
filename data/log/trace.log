@@ -12939,3 +12939,639 @@ Caused by: java.lang.NumberFormatException: For input string: ""
 10/02/2023 18:24:31:818  INFO - EBD3C101824E73E458E00E44CE2AC7AA:/BloodBank : SCESession Removed
 10/02/2023 18:24:31:819 DEBUG - EBD3C101824E73E458E00E44CE2AC7AA:/BloodBank : Removing 1 session stack frames.
 10/02/2023 18:24:31:820  INFO - EBD3C101824E73E458E00E44CE2AC7AA:/BloodBank : ** Popped Stack Frame [/BloodBank]
+13/02/2023 11:00:03:662  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : SCESession bound to HttpSession 20287F278DD5C1D8F57C1B6A2293A360
+13/02/2023 11:00:03:896  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Browser Version 2.1.4, terminationURL enabled : true
+13/02/2023 11:00:03:917  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Using SCESession 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank servlet : Start
+13/02/2023 11:00:03:966  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : ** Pushed Stack Frame [/BloodBank]
+13/02/2023 11:00:03:975 DEBUG - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Not able to save posted variable information [call_classification]
+13/02/2023 11:00:03:976  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___sessionid to complex: session:sessionid  as [sess1521882]
+13/02/2023 11:00:03:976  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___vpconverseondata to complex: session:vpconverseondata  as []
+13/02/2023 11:00:04:625  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : runtime_platform : Desktop
+13/02/2023 11:00:04:626  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : runtime_asr : Desktop Microsoft Speech SAPI
+13/02/2023 11:00:04:649 DEBUG - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Acquiring initial License
+13/02/2023 11:00:04:651  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Acquiring Desktop runtime license
+13/02/2023 11:00:04:651  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Runtime :true
+13/02/2023 11:00:04:651  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : IC :true
+13/02/2023 11:00:04:651  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : CTI :true
+13/02/2023 11:00:04:684 DEBUG - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Grace Period timer cleared
+13/02/2023 11:00:04:686 DEBUG - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : License refresh timer started
+13/02/2023 11:00:04:691  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : MessageType is speech
+13/02/2023 11:00:04:763  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Using SCESession 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank servlet : Greetings
+13/02/2023 11:00:04:772  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :_sipcallid to simple: _sipcallid  as [unknown]
+13/02/2023 11:00:04:772  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :redirectinfo___presentationinfo to complex: redirectinfo:presentationinfo  as [undefined]
+13/02/2023 11:00:04:772  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :redirectinfo___reason to complex: redirectinfo:reason  as [unknown]
+13/02/2023 11:00:04:773  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :redirectinfo___screeninginfo to complex: redirectinfo:screeninginfo  as [undefined]
+13/02/2023 11:00:04:774  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :redirectinfo___uri to complex: redirectinfo:uri  as [3000]
+13/02/2023 11:00:04:774  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___aai to complex: session:aai  as []
+13/02/2023 11:00:04:774  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___ani to complex: session:ani  as [2000]
+13/02/2023 11:00:04:774  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___calltag to complex: session:calltag  as [unknown]
+13/02/2023 11:00:04:774  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___channel to complex: session:channel  as [0]
+13/02/2023 11:00:04:775  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___conversefirst to complex: session:conversefirst  as [unknown]
+13/02/2023 11:00:04:776  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___conversesecond to complex: session:conversesecond  as [unknown]
+13/02/2023 11:00:04:776  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___dnis to complex: session:dnis  as [3000]
+13/02/2023 11:00:04:776  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___mediatype to complex: session:mediatype  as [unknown]
+13/02/2023 11:00:04:776  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___protocolname to complex: session:protocolname  as [pots]
+13/02/2023 11:00:04:788  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___protocolversion to complex: session:protocolversion  as [1]
+13/02/2023 11:00:04:788  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___sessionlabel to complex: session:sessionlabel  as [undefined]
+13/02/2023 11:00:04:789  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___sharedmode to complex: session:sharedmode  as [shared]
+13/02/2023 11:00:04:789  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___ucid to complex: session:ucid  as [undefined]
+13/02/2023 11:00:04:789  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___uui to complex: session:uui  as [unknown]
+13/02/2023 11:00:04:789  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___videobitrate to complex: session:videobitrate  as [unknown]
+13/02/2023 11:00:04:790  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___videocodec to complex: session:videocodec  as [unknown]
+13/02/2023 11:00:04:790  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___videoenabled to complex: session:videoenabled  as [unknown]
+13/02/2023 11:00:04:790  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___videofarfmtp to complex: session:videofarfmtp  as [unknown]
+13/02/2023 11:00:04:790  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___videoformat to complex: session:videoformat  as [unknown]
+13/02/2023 11:00:04:790  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___videofps to complex: session:videofps  as [unknown]
+13/02/2023 11:00:04:790  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___videoheight to complex: session:videoheight  as [unknown]
+13/02/2023 11:00:04:790  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___videonearfmtp to complex: session:videonearfmtp  as [unknown]
+13/02/2023 11:00:04:791  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___videowidth to complex: session:videowidth  as [unknown]
+13/02/2023 11:00:04:791  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___vpcalledextension to complex: session:vpcalledextension  as [unknown]
+13/02/2023 11:00:04:791  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___vpcoveragereason to complex: session:vpcoveragereason  as [unknown]
+13/02/2023 11:00:04:791  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___vpcoveragetype to complex: session:vpcoveragetype  as [unknown]
+13/02/2023 11:00:04:791  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :session___vprdnis to complex: session:vprdnis  as [unknown]
+13/02/2023 11:00:04:791  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :shareduui___id to complex: shareduui:id  as [unknown]
+13/02/2023 11:00:04:791  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :shareduui___value to complex: shareduui:value  as [unknown]
+13/02/2023 11:00:04:864  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Entered Welcome Node
+13/02/2023 11:00:04:915  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Using SCESession 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank servlet : ServiceSelect
+13/02/2023 11:00:04:979  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Entered Service Select Node
+13/02/2023 11:00:08:873  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Using SCESession 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank servlet : RegionSelection
+13/02/2023 11:00:08:874  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :ServiceSelect___confidence to complex: ServiceSelect:confidence  as [0.949999988079071]
+13/02/2023 11:00:08:875  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :ServiceSelect___inputmode to complex: ServiceSelect:inputmode  as [dtmf]
+13/02/2023 11:00:08:875  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :ServiceSelect___interpretation to complex: ServiceSelect:interpretation  as [1]
+13/02/2023 11:00:08:875  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :ServiceSelect___noinputcount to complex: ServiceSelect:noinputcount  as [0]
+13/02/2023 11:00:08:875  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :ServiceSelect___nomatchcount to complex: ServiceSelect:nomatchcount  as [0]
+13/02/2023 11:00:08:875  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :ServiceSelect___utterance to complex: ServiceSelect:utterance  as [1]
+13/02/2023 11:00:08:876  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :ServiceSelect___value to complex: ServiceSelect:value  as [1]
+13/02/2023 11:00:08:931  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Entered Region Select Node
+13/02/2023 11:00:09:426  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Region Prompt Start
+13/02/2023 11:00:09:427  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Region Prompt End
+13/02/2023 11:00:09:427  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Region Choice Start
+13/02/2023 11:00:09:427  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Region Choice End
+13/02/2023 11:00:09:428  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Region Choice End
+13/02/2023 11:00:11:959  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Using SCESession 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank servlet : BranchSelection
+13/02/2023 11:00:11:960  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :RegionSelection___confidence to complex: RegionSelection:confidence  as [0.949999988079071]
+13/02/2023 11:00:11:960  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :RegionSelection___inputmode to complex: RegionSelection:inputmode  as [dtmf]
+13/02/2023 11:00:11:960  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :RegionSelection___interpretation to complex: RegionSelection:interpretation  as [1]
+13/02/2023 11:00:11:960  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :RegionSelection___noinputcount to complex: RegionSelection:noinputcount  as [0]
+13/02/2023 11:00:11:960  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :RegionSelection___nomatchcount to complex: RegionSelection:nomatchcount  as [0]
+13/02/2023 11:00:11:960  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :RegionSelection___utterance to complex: RegionSelection:utterance  as [1]
+13/02/2023 11:00:11:960  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :RegionSelection___value to complex: RegionSelection:value  as [1]
+13/02/2023 11:00:12:018  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Entered Branch Selection Node
+13/02/2023 11:00:12:195  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Branch prompt Start
+13/02/2023 11:00:12:196  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Branch prompt End
+13/02/2023 11:00:12:196  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Branch choice End
+13/02/2023 11:00:12:196  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Chennai north choice  End
+13/02/2023 11:00:26:730  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Using SCESession 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank servlet : ChoiceProcessing
+13/02/2023 11:00:26:732  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___confidence to complex: BranchSelection:confidence  as [0.949999988079071]
+13/02/2023 11:00:26:732  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___inputmode to complex: BranchSelection:inputmode  as [dtmf]
+13/02/2023 11:00:26:733  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___interpretation to complex: BranchSelection:interpretation  as [9]
+13/02/2023 11:00:26:734  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___noinputcount to complex: BranchSelection:noinputcount  as [0]
+13/02/2023 11:00:26:734  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___nomatchcount to complex: BranchSelection:nomatchcount  as [0]
+13/02/2023 11:00:26:735  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___utterance to complex: BranchSelection:utterance  as [9]
+13/02/2023 11:00:26:735  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___value to complex: BranchSelection:value  as [9]
+13/02/2023 11:00:26:823  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Using SCESession 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank servlet : BranchSelection
+13/02/2023 11:00:26:889  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Entered Branch Selection Node
+13/02/2023 11:00:26:977  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Branch prompt Start
+13/02/2023 11:00:26:978  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Branch prompt End
+13/02/2023 11:00:26:978  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Branch choice End
+13/02/2023 11:00:26:978  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Chennai north choice  End
+13/02/2023 11:00:30:764  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Using SCESession 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank servlet : ChoiceProcessing
+13/02/2023 11:00:30:765  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___confidence to complex: BranchSelection:confidence  as [0.949999988079071]
+13/02/2023 11:00:30:766  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___inputmode to complex: BranchSelection:inputmode  as [dtmf]
+13/02/2023 11:00:30:766  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___interpretation to complex: BranchSelection:interpretation  as [9]
+13/02/2023 11:00:30:766  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___noinputcount to complex: BranchSelection:noinputcount  as [0]
+13/02/2023 11:00:30:767  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___nomatchcount to complex: BranchSelection:nomatchcount  as [0]
+13/02/2023 11:00:30:767  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___utterance to complex: BranchSelection:utterance  as [9]
+13/02/2023 11:00:30:768  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___value to complex: BranchSelection:value  as [9]
+13/02/2023 11:00:30:824  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Using SCESession 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank servlet : BranchSelection
+13/02/2023 11:00:30:885  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Entered Branch Selection Node
+13/02/2023 11:00:30:978  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Branch prompt Start
+13/02/2023 11:00:30:979  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Branch prompt End
+13/02/2023 11:00:30:980  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Branch choice End
+13/02/2023 11:00:30:980  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Chennai north choice  End
+13/02/2023 11:00:38:493  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Using SCESession 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank servlet : Blood_group
+13/02/2023 11:00:38:494  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___confidence to complex: BranchSelection:confidence  as [0.949999988079071]
+13/02/2023 11:00:38:495  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___inputmode to complex: BranchSelection:inputmode  as [dtmf]
+13/02/2023 11:00:38:496  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___interpretation to complex: BranchSelection:interpretation  as [5]
+13/02/2023 11:00:38:496  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___noinputcount to complex: BranchSelection:noinputcount  as [0]
+13/02/2023 11:00:38:497  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___nomatchcount to complex: BranchSelection:nomatchcount  as [0]
+13/02/2023 11:00:38:497  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___utterance to complex: BranchSelection:utterance  as [5]
+13/02/2023 11:00:38:498  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :BranchSelection___value to complex: BranchSelection:value  as [5]
+13/02/2023 11:00:38:563  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Entered Blood group Select Node
+13/02/2023 11:00:38:636  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Blood group Prompt Start
+13/02/2023 11:00:38:637  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Blood group Prompt End
+13/02/2023 11:00:38:637  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Blood group Choice Start
+13/02/2023 11:00:38:637  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Blood group choice End
+13/02/2023 11:00:42:542  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Using SCESession 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank servlet : BranchSelect
+13/02/2023 11:00:42:545  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :Blood_group___confidence to complex: Blood_group:confidence  as [0.949999988079071]
+13/02/2023 11:00:42:546  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :Blood_group___inputmode to complex: Blood_group:inputmode  as [dtmf]
+13/02/2023 11:00:42:550  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :Blood_group___interpretation to complex: Blood_group:interpretation  as [1]
+13/02/2023 11:00:42:554  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :Blood_group___noinputcount to complex: Blood_group:noinputcount  as [0]
+13/02/2023 11:00:42:556  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :Blood_group___nomatchcount to complex: Blood_group:nomatchcount  as [0]
+13/02/2023 11:00:42:559  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :Blood_group___utterance to complex: Blood_group:utterance  as [1]
+13/02/2023 11:00:42:559  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Storing :Blood_group___value to complex: Blood_group:value  as [1]
+13/02/2023 11:00:42:644  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Entered Branch Select Node
+13/02/2023 11:00:42:740  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Using SCESession 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank servlet : Available_units
+13/02/2023 11:00:42:804  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Entered available units node
+13/02/2023 11:00:43:114  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Available Units prompt Start
+13/02/2023 11:00:43:114  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : session id:sess1521882 | Update Available Units prompt End
+13/02/2023 11:00:45:352  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Using SCESession 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank servlet : Disconnect
+13/02/2023 11:00:45:441  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Using SCESession 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank servlet : Exit
+13/02/2023 11:00:45:508  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Removing session from AvayaSessionTermination Servlet
+13/02/2023 11:00:45:509  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Termination URL reply : <?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us">
+</vxml>
+
+13/02/2023 11:00:45:513  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : HTTP Session lost removing SCESession 20287F278DD5C1D8F57C1B6A2293A360
+13/02/2023 11:00:45:513  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : SCESession Removed
+13/02/2023 11:00:45:513 DEBUG - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : Removing 1 session stack frames.
+13/02/2023 11:00:45:513  INFO - 20287F278DD5C1D8F57C1B6A2293A360:/BloodBank : ** Popped Stack Frame [/BloodBank]
+13/02/2023 11:03:15:614  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : SCESession bound to HttpSession 87B812BF4DA3976ECD6ADA4C9A8D8C1C
+13/02/2023 11:03:15:756  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Browser Version 2.1.4, terminationURL enabled : true
+13/02/2023 11:03:15:763  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Using SCESession 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank servlet : Start
+13/02/2023 11:03:15:805  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : ** Pushed Stack Frame [/BloodBank]
+13/02/2023 11:03:15:825 DEBUG - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Not able to save posted variable information [call_classification]
+13/02/2023 11:03:15:825  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___sessionid to complex: session:sessionid  as [sess1547902]
+13/02/2023 11:03:15:826  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___vpconverseondata to complex: session:vpconverseondata  as []
+13/02/2023 11:03:16:496  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : runtime_platform : Desktop
+13/02/2023 11:03:16:497  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : runtime_asr : Desktop Microsoft Speech SAPI
+13/02/2023 11:03:16:511 DEBUG - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Acquiring initial License
+13/02/2023 11:03:16:512  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Acquiring Desktop runtime license
+13/02/2023 11:03:16:513  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Runtime :true
+13/02/2023 11:03:16:513  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : IC :true
+13/02/2023 11:03:16:513  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : CTI :true
+13/02/2023 11:03:16:547 DEBUG - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Grace Period timer cleared
+13/02/2023 11:03:16:551 DEBUG - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : License refresh timer started
+13/02/2023 11:03:16:560  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : MessageType is speech
+13/02/2023 11:03:16:608  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Using SCESession 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank servlet : Greetings
+13/02/2023 11:03:16:609  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :_sipcallid to simple: _sipcallid  as [unknown]
+13/02/2023 11:03:16:610  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :redirectinfo___presentationinfo to complex: redirectinfo:presentationinfo  as [undefined]
+13/02/2023 11:03:16:610  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :redirectinfo___reason to complex: redirectinfo:reason  as [unknown]
+13/02/2023 11:03:16:610  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :redirectinfo___screeninginfo to complex: redirectinfo:screeninginfo  as [undefined]
+13/02/2023 11:03:16:610  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :redirectinfo___uri to complex: redirectinfo:uri  as [3000]
+13/02/2023 11:03:16:610  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___aai to complex: session:aai  as []
+13/02/2023 11:03:16:611  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___ani to complex: session:ani  as [2000]
+13/02/2023 11:03:16:611  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___calltag to complex: session:calltag  as [unknown]
+13/02/2023 11:03:16:611  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___channel to complex: session:channel  as [0]
+13/02/2023 11:03:16:611  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___conversefirst to complex: session:conversefirst  as [unknown]
+13/02/2023 11:03:16:611  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___conversesecond to complex: session:conversesecond  as [unknown]
+13/02/2023 11:03:16:612  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___dnis to complex: session:dnis  as [3000]
+13/02/2023 11:03:16:612  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___mediatype to complex: session:mediatype  as [unknown]
+13/02/2023 11:03:16:612  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___protocolname to complex: session:protocolname  as [pots]
+13/02/2023 11:03:16:612  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___protocolversion to complex: session:protocolversion  as [1]
+13/02/2023 11:03:16:612  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___sessionlabel to complex: session:sessionlabel  as [undefined]
+13/02/2023 11:03:16:613  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___sharedmode to complex: session:sharedmode  as [shared]
+13/02/2023 11:03:16:613  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___ucid to complex: session:ucid  as [undefined]
+13/02/2023 11:03:16:613  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___uui to complex: session:uui  as [unknown]
+13/02/2023 11:03:16:613  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___videobitrate to complex: session:videobitrate  as [unknown]
+13/02/2023 11:03:16:613  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___videocodec to complex: session:videocodec  as [unknown]
+13/02/2023 11:03:16:614  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___videoenabled to complex: session:videoenabled  as [unknown]
+13/02/2023 11:03:16:614  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___videofarfmtp to complex: session:videofarfmtp  as [unknown]
+13/02/2023 11:03:16:614  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___videoformat to complex: session:videoformat  as [unknown]
+13/02/2023 11:03:16:614  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___videofps to complex: session:videofps  as [unknown]
+13/02/2023 11:03:16:614  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___videoheight to complex: session:videoheight  as [unknown]
+13/02/2023 11:03:16:614  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___videonearfmtp to complex: session:videonearfmtp  as [unknown]
+13/02/2023 11:03:16:614  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___videowidth to complex: session:videowidth  as [unknown]
+13/02/2023 11:03:16:615  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___vpcalledextension to complex: session:vpcalledextension  as [unknown]
+13/02/2023 11:03:16:615  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___vpcoveragereason to complex: session:vpcoveragereason  as [unknown]
+13/02/2023 11:03:16:615  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___vpcoveragetype to complex: session:vpcoveragetype  as [unknown]
+13/02/2023 11:03:16:615  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :session___vprdnis to complex: session:vprdnis  as [unknown]
+13/02/2023 11:03:16:615  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :shareduui___id to complex: shareduui:id  as [unknown]
+13/02/2023 11:03:16:616  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :shareduui___value to complex: shareduui:value  as [unknown]
+13/02/2023 11:03:16:686  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Entered Welcome Node
+13/02/2023 11:03:16:719  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Using SCESession 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank servlet : ServiceSelect
+13/02/2023 11:03:16:778  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Entered Service Select Node
+13/02/2023 11:03:20:517  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Using SCESession 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank servlet : RegionSelection
+13/02/2023 11:03:20:519  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :ServiceSelect___confidence to complex: ServiceSelect:confidence  as [0.949999988079071]
+13/02/2023 11:03:20:520  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :ServiceSelect___inputmode to complex: ServiceSelect:inputmode  as [dtmf]
+13/02/2023 11:03:20:520  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :ServiceSelect___interpretation to complex: ServiceSelect:interpretation  as [1]
+13/02/2023 11:03:20:521  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :ServiceSelect___noinputcount to complex: ServiceSelect:noinputcount  as [0]
+13/02/2023 11:03:20:521  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :ServiceSelect___nomatchcount to complex: ServiceSelect:nomatchcount  as [0]
+13/02/2023 11:03:20:521  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :ServiceSelect___utterance to complex: ServiceSelect:utterance  as [1]
+13/02/2023 11:03:20:522  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :ServiceSelect___value to complex: ServiceSelect:value  as [1]
+13/02/2023 11:03:20:574  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Entered Region Select Node
+13/02/2023 11:03:20:922  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Region Prompt Start
+13/02/2023 11:03:20:922  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Region Prompt End
+13/02/2023 11:03:20:922  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Region Choice Start
+13/02/2023 11:03:20:922  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Region Choice End
+13/02/2023 11:03:20:922  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Region Choice End
+13/02/2023 11:03:24:569  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Using SCESession 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank servlet : BranchSelection
+13/02/2023 11:03:24:570  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :RegionSelection___confidence to complex: RegionSelection:confidence  as [0.949999988079071]
+13/02/2023 11:03:24:571  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :RegionSelection___inputmode to complex: RegionSelection:inputmode  as [dtmf]
+13/02/2023 11:03:24:571  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :RegionSelection___interpretation to complex: RegionSelection:interpretation  as [1]
+13/02/2023 11:03:24:571  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :RegionSelection___noinputcount to complex: RegionSelection:noinputcount  as [0]
+13/02/2023 11:03:24:571  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :RegionSelection___nomatchcount to complex: RegionSelection:nomatchcount  as [0]
+13/02/2023 11:03:24:572  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :RegionSelection___utterance to complex: RegionSelection:utterance  as [1]
+13/02/2023 11:03:24:572  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :RegionSelection___value to complex: RegionSelection:value  as [1]
+13/02/2023 11:03:24:634  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Entered Branch Selection Node
+13/02/2023 11:03:24:676  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Branch prompt Start
+13/02/2023 11:03:24:678  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Branch prompt End
+13/02/2023 11:03:24:679  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Branch choice End
+13/02/2023 11:03:24:679  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Chennai north choice  End
+13/02/2023 11:04:10:817  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Using SCESession 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank servlet : ChoiceProcessing
+13/02/2023 11:04:10:817  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___confidence to complex: BranchSelection:confidence  as [0.949999988079071]
+13/02/2023 11:04:10:818  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___inputmode to complex: BranchSelection:inputmode  as [dtmf]
+13/02/2023 11:04:10:818  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___interpretation to complex: BranchSelection:interpretation  as [9]
+13/02/2023 11:04:10:818  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___noinputcount to complex: BranchSelection:noinputcount  as [1]
+13/02/2023 11:04:10:818  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___nomatchcount to complex: BranchSelection:nomatchcount  as [1]
+13/02/2023 11:04:10:818  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___utterance to complex: BranchSelection:utterance  as [9]
+13/02/2023 11:04:10:819  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___value to complex: BranchSelection:value  as [9]
+13/02/2023 11:04:10:888  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Using SCESession 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank servlet : BranchSelection
+13/02/2023 11:04:10:953  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Entered Branch Selection Node
+13/02/2023 11:04:11:020  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Branch prompt Start
+13/02/2023 11:04:11:023  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Branch prompt End
+13/02/2023 11:04:11:025  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Branch choice End
+13/02/2023 11:04:11:025  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Chennai north choice  End
+13/02/2023 11:04:40:044  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Using SCESession 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank servlet : ChoiceProcessing
+13/02/2023 11:04:40:045  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___confidence to complex: BranchSelection:confidence  as [0.949999988079071]
+13/02/2023 11:04:40:046  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___inputmode to complex: BranchSelection:inputmode  as [dtmf]
+13/02/2023 11:04:40:048  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___interpretation to complex: BranchSelection:interpretation  as [9]
+13/02/2023 11:04:40:048  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___noinputcount to complex: BranchSelection:noinputcount  as [0]
+13/02/2023 11:04:40:049  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___nomatchcount to complex: BranchSelection:nomatchcount  as [0]
+13/02/2023 11:04:40:049  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___utterance to complex: BranchSelection:utterance  as [9]
+13/02/2023 11:04:40:049  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___value to complex: BranchSelection:value  as [9]
+13/02/2023 11:04:40:111  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Using SCESession 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank servlet : BranchSelection
+13/02/2023 11:04:40:173  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Entered Branch Selection Node
+13/02/2023 11:04:40:303  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Branch prompt Start
+13/02/2023 11:04:40:304  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Branch prompt End
+13/02/2023 11:04:40:304  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Branch choice End
+13/02/2023 11:04:40:305  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Chennai north choice  End
+13/02/2023 11:05:05:736  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Using SCESession 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank servlet : Blood_group
+13/02/2023 11:05:05:737  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___confidence to complex: BranchSelection:confidence  as [0.949999988079071]
+13/02/2023 11:05:05:738  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___inputmode to complex: BranchSelection:inputmode  as [dtmf]
+13/02/2023 11:05:05:738  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___interpretation to complex: BranchSelection:interpretation  as [5]
+13/02/2023 11:05:05:738  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___noinputcount to complex: BranchSelection:noinputcount  as [0]
+13/02/2023 11:05:05:738  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___nomatchcount to complex: BranchSelection:nomatchcount  as [0]
+13/02/2023 11:05:05:738  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___utterance to complex: BranchSelection:utterance  as [5]
+13/02/2023 11:05:05:738  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :BranchSelection___value to complex: BranchSelection:value  as [5]
+13/02/2023 11:05:05:793  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Entered Blood group Select Node
+13/02/2023 11:05:05:858  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Blood group Prompt Start
+13/02/2023 11:05:05:859  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Blood group Prompt End
+13/02/2023 11:05:05:859  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Blood group Choice Start
+13/02/2023 11:05:05:859  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Blood group choice End
+13/02/2023 11:05:12:044  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Using SCESession 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank servlet : BranchSelect
+13/02/2023 11:05:12:045  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :Blood_group___confidence to complex: Blood_group:confidence  as [0.949999988079071]
+13/02/2023 11:05:12:046  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :Blood_group___inputmode to complex: Blood_group:inputmode  as [dtmf]
+13/02/2023 11:05:12:050  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :Blood_group___interpretation to complex: Blood_group:interpretation  as [1]
+13/02/2023 11:05:12:052  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :Blood_group___noinputcount to complex: Blood_group:noinputcount  as [0]
+13/02/2023 11:05:12:053  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :Blood_group___nomatchcount to complex: Blood_group:nomatchcount  as [1]
+13/02/2023 11:05:12:054  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :Blood_group___utterance to complex: Blood_group:utterance  as [1]
+13/02/2023 11:05:12:058  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Storing :Blood_group___value to complex: Blood_group:value  as [1]
+13/02/2023 11:05:12:126  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Entered Branch Select Node
+13/02/2023 11:05:12:249  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Using SCESession 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank servlet : Available_units
+13/02/2023 11:05:12:307  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Entered available units node
+13/02/2023 11:05:12:471  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Available Units prompt Start
+13/02/2023 11:05:12:471  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : session id:sess1547902 | Update Available Units prompt End
+13/02/2023 11:05:14:635  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Using SCESession 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank servlet : Disconnect
+13/02/2023 11:05:14:706  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Using SCESession 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank servlet : Exit
+13/02/2023 11:05:14:793  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Removing session from AvayaSessionTermination Servlet
+13/02/2023 11:05:14:795  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Termination URL reply : <?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us">
+</vxml>
+
+13/02/2023 11:05:14:798  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : HTTP Session lost removing SCESession 87B812BF4DA3976ECD6ADA4C9A8D8C1C
+13/02/2023 11:05:14:799  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : SCESession Removed
+13/02/2023 11:05:14:800 DEBUG - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : Removing 1 session stack frames.
+13/02/2023 11:05:14:800  INFO - 87B812BF4DA3976ECD6ADA4C9A8D8C1C:/BloodBank : ** Popped Stack Frame [/BloodBank]
+13/02/2023 12:11:24:151  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : SCESession bound to HttpSession 50DA382C307654CF4FE27580E1E1F0AD
+13/02/2023 12:11:24:479  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Browser Version 2.1.4, terminationURL enabled : true
+13/02/2023 12:11:24:515  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Using SCESession 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank servlet : Start
+13/02/2023 12:11:24:613  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : ** Pushed Stack Frame [/BloodBank]
+13/02/2023 12:11:24:620 DEBUG - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Not able to save posted variable information [call_classification]
+13/02/2023 12:11:24:620  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___sessionid to complex: session:sessionid  as [sess1497005]
+13/02/2023 12:11:24:620  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___vpconverseondata to complex: session:vpconverseondata  as []
+13/02/2023 12:11:25:286  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : runtime_platform : Desktop
+13/02/2023 12:11:25:286  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : runtime_asr : Desktop Microsoft Speech SAPI
+13/02/2023 12:11:25:306 DEBUG - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Acquiring initial License
+13/02/2023 12:11:25:307  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Acquiring Desktop runtime license
+13/02/2023 12:11:25:307  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Runtime :true
+13/02/2023 12:11:25:308  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : IC :true
+13/02/2023 12:11:25:308  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : CTI :true
+13/02/2023 12:11:25:333 DEBUG - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Grace Period timer cleared
+13/02/2023 12:11:25:336 DEBUG - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : License refresh timer started
+13/02/2023 12:11:25:338  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : MessageType is speech
+13/02/2023 12:11:25:427  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Using SCESession 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank servlet : Greetings
+13/02/2023 12:11:25:429  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :_sipcallid to simple: _sipcallid  as [unknown]
+13/02/2023 12:11:25:429  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :redirectinfo___presentationinfo to complex: redirectinfo:presentationinfo  as [undefined]
+13/02/2023 12:11:25:430  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :redirectinfo___reason to complex: redirectinfo:reason  as [unknown]
+13/02/2023 12:11:25:430  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :redirectinfo___screeninginfo to complex: redirectinfo:screeninginfo  as [undefined]
+13/02/2023 12:11:25:431  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :redirectinfo___uri to complex: redirectinfo:uri  as [3000]
+13/02/2023 12:11:25:431  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___aai to complex: session:aai  as []
+13/02/2023 12:11:25:431  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___ani to complex: session:ani  as [2000]
+13/02/2023 12:11:25:431  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___calltag to complex: session:calltag  as [unknown]
+13/02/2023 12:11:25:432  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___channel to complex: session:channel  as [0]
+13/02/2023 12:11:25:432  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___conversefirst to complex: session:conversefirst  as [unknown]
+13/02/2023 12:11:25:432  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___conversesecond to complex: session:conversesecond  as [unknown]
+13/02/2023 12:11:25:432  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___dnis to complex: session:dnis  as [3000]
+13/02/2023 12:11:25:432  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___mediatype to complex: session:mediatype  as [unknown]
+13/02/2023 12:11:25:432  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___protocolname to complex: session:protocolname  as [pots]
+13/02/2023 12:11:25:433  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___protocolversion to complex: session:protocolversion  as [1]
+13/02/2023 12:11:25:435  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___sessionlabel to complex: session:sessionlabel  as [undefined]
+13/02/2023 12:11:25:435  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___sharedmode to complex: session:sharedmode  as [shared]
+13/02/2023 12:11:25:435  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___ucid to complex: session:ucid  as [undefined]
+13/02/2023 12:11:25:436  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___uui to complex: session:uui  as [unknown]
+13/02/2023 12:11:25:436  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___videobitrate to complex: session:videobitrate  as [unknown]
+13/02/2023 12:11:25:436  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___videocodec to complex: session:videocodec  as [unknown]
+13/02/2023 12:11:25:436  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___videoenabled to complex: session:videoenabled  as [unknown]
+13/02/2023 12:11:25:437  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___videofarfmtp to complex: session:videofarfmtp  as [unknown]
+13/02/2023 12:11:25:437  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___videoformat to complex: session:videoformat  as [unknown]
+13/02/2023 12:11:25:437  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___videofps to complex: session:videofps  as [unknown]
+13/02/2023 12:11:25:437  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___videoheight to complex: session:videoheight  as [unknown]
+13/02/2023 12:11:25:437  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___videonearfmtp to complex: session:videonearfmtp  as [unknown]
+13/02/2023 12:11:25:438  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___videowidth to complex: session:videowidth  as [unknown]
+13/02/2023 12:11:25:438  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___vpcalledextension to complex: session:vpcalledextension  as [unknown]
+13/02/2023 12:11:25:439  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___vpcoveragereason to complex: session:vpcoveragereason  as [unknown]
+13/02/2023 12:11:25:439  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___vpcoveragetype to complex: session:vpcoveragetype  as [unknown]
+13/02/2023 12:11:25:439  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :session___vprdnis to complex: session:vprdnis  as [unknown]
+13/02/2023 12:11:25:439  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :shareduui___id to complex: shareduui:id  as [unknown]
+13/02/2023 12:11:25:439  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :shareduui___value to complex: shareduui:value  as [unknown]
+13/02/2023 12:11:25:498  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : session id:sess1497005 | Entered Welcome Node
+13/02/2023 12:11:25:549  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Using SCESession 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank servlet : ServiceSelect
+13/02/2023 12:11:25:605  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : session id:sess1497005 | Entered Service Select Node
+13/02/2023 12:11:34:895  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Using SCESession 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank servlet : RegionSelection
+13/02/2023 12:11:34:897  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :ServiceSelect___confidence to complex: ServiceSelect:confidence  as [0.949999988079071]
+13/02/2023 12:11:34:897  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :ServiceSelect___inputmode to complex: ServiceSelect:inputmode  as [dtmf]
+13/02/2023 12:11:34:897  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :ServiceSelect___interpretation to complex: ServiceSelect:interpretation  as [1]
+13/02/2023 12:11:34:897  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :ServiceSelect___noinputcount to complex: ServiceSelect:noinputcount  as [0]
+13/02/2023 12:11:34:898  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :ServiceSelect___nomatchcount to complex: ServiceSelect:nomatchcount  as [0]
+13/02/2023 12:11:34:898  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :ServiceSelect___utterance to complex: ServiceSelect:utterance  as [1]
+13/02/2023 12:11:34:898  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Storing :ServiceSelect___value to complex: ServiceSelect:value  as [1]
+13/02/2023 12:11:34:964  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : session id:sess1497005 | Entered Region Select Node
+13/02/2023 12:11:35:504  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : session id:sess1497005 | Update Region Prompt Start
+13/02/2023 12:11:35:505  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : session id:sess1497005 | Update Chennai north choice  End
+13/02/2023 12:11:46:560  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Using SCESession 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank servlet : hangup
+13/02/2023 12:11:46:671  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Using SCESession 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank servlet : Disconnect
+13/02/2023 12:11:46:750  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Using SCESession 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank servlet : Exit
+13/02/2023 12:11:46:825  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Removing session from AvayaSessionTermination Servlet
+13/02/2023 12:11:46:829  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Termination URL reply : <?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us">
+</vxml>
+
+13/02/2023 12:11:46:830  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : HTTP Session lost removing SCESession 50DA382C307654CF4FE27580E1E1F0AD
+13/02/2023 12:11:46:831  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : SCESession Removed
+13/02/2023 12:11:46:831 DEBUG - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : Removing 1 session stack frames.
+13/02/2023 12:11:46:831  INFO - 50DA382C307654CF4FE27580E1E1F0AD:/BloodBank : ** Popped Stack Frame [/BloodBank]
+13/02/2023 12:13:28:217  INFO - 9760C480511027482679122CF7094B30:/BloodBank : SCESession bound to HttpSession 9760C480511027482679122CF7094B30
+13/02/2023 12:13:28:359  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Browser Version 2.1.4, terminationURL enabled : true
+13/02/2023 12:13:28:367  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Using SCESession 9760C480511027482679122CF7094B30:/BloodBank servlet : Start
+13/02/2023 12:13:28:400  INFO - 9760C480511027482679122CF7094B30:/BloodBank : ** Pushed Stack Frame [/BloodBank]
+13/02/2023 12:13:28:408 DEBUG - 9760C480511027482679122CF7094B30:/BloodBank : Not able to save posted variable information [call_classification]
+13/02/2023 12:13:28:408  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___sessionid to complex: session:sessionid  as [sess3350149]
+13/02/2023 12:13:28:408  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___vpconverseondata to complex: session:vpconverseondata  as []
+13/02/2023 12:13:29:046  INFO - 9760C480511027482679122CF7094B30:/BloodBank : runtime_platform : Desktop
+13/02/2023 12:13:29:046  INFO - 9760C480511027482679122CF7094B30:/BloodBank : runtime_asr : Desktop Microsoft Speech SAPI
+13/02/2023 12:13:29:055 DEBUG - 9760C480511027482679122CF7094B30:/BloodBank : Acquiring initial License
+13/02/2023 12:13:29:057  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Acquiring Desktop runtime license
+13/02/2023 12:13:29:057  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Runtime :true
+13/02/2023 12:13:29:057  INFO - 9760C480511027482679122CF7094B30:/BloodBank : IC :true
+13/02/2023 12:13:29:057  INFO - 9760C480511027482679122CF7094B30:/BloodBank : CTI :true
+13/02/2023 12:13:29:084 DEBUG - 9760C480511027482679122CF7094B30:/BloodBank : Grace Period timer cleared
+13/02/2023 12:13:29:087 DEBUG - 9760C480511027482679122CF7094B30:/BloodBank : License refresh timer started
+13/02/2023 12:13:29:090  INFO - 9760C480511027482679122CF7094B30:/BloodBank : MessageType is speech
+13/02/2023 12:13:29:159  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Using SCESession 9760C480511027482679122CF7094B30:/BloodBank servlet : Greetings
+13/02/2023 12:13:29:160  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :_sipcallid to simple: _sipcallid  as [unknown]
+13/02/2023 12:13:29:162  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :redirectinfo___presentationinfo to complex: redirectinfo:presentationinfo  as [undefined]
+13/02/2023 12:13:29:162  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :redirectinfo___reason to complex: redirectinfo:reason  as [unknown]
+13/02/2023 12:13:29:163  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :redirectinfo___screeninginfo to complex: redirectinfo:screeninginfo  as [undefined]
+13/02/2023 12:13:29:163  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :redirectinfo___uri to complex: redirectinfo:uri  as [3000]
+13/02/2023 12:13:29:164  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___aai to complex: session:aai  as []
+13/02/2023 12:13:29:164  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___ani to complex: session:ani  as [2000]
+13/02/2023 12:13:29:164  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___calltag to complex: session:calltag  as [unknown]
+13/02/2023 12:13:29:164  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___channel to complex: session:channel  as [0]
+13/02/2023 12:13:29:164  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___conversefirst to complex: session:conversefirst  as [unknown]
+13/02/2023 12:13:29:164  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___conversesecond to complex: session:conversesecond  as [unknown]
+13/02/2023 12:13:29:164  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___dnis to complex: session:dnis  as [3000]
+13/02/2023 12:13:29:165  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___mediatype to complex: session:mediatype  as [unknown]
+13/02/2023 12:13:29:165  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___protocolname to complex: session:protocolname  as [pots]
+13/02/2023 12:13:29:166  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___protocolversion to complex: session:protocolversion  as [1]
+13/02/2023 12:13:29:166  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___sessionlabel to complex: session:sessionlabel  as [undefined]
+13/02/2023 12:13:29:166  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___sharedmode to complex: session:sharedmode  as [shared]
+13/02/2023 12:13:29:166  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___ucid to complex: session:ucid  as [undefined]
+13/02/2023 12:13:29:167  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___uui to complex: session:uui  as [unknown]
+13/02/2023 12:13:29:167  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___videobitrate to complex: session:videobitrate  as [unknown]
+13/02/2023 12:13:29:168  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___videocodec to complex: session:videocodec  as [unknown]
+13/02/2023 12:13:29:168  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___videoenabled to complex: session:videoenabled  as [unknown]
+13/02/2023 12:13:29:168  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___videofarfmtp to complex: session:videofarfmtp  as [unknown]
+13/02/2023 12:13:29:169  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___videoformat to complex: session:videoformat  as [unknown]
+13/02/2023 12:13:29:170  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___videofps to complex: session:videofps  as [unknown]
+13/02/2023 12:13:29:170  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___videoheight to complex: session:videoheight  as [unknown]
+13/02/2023 12:13:29:170  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___videonearfmtp to complex: session:videonearfmtp  as [unknown]
+13/02/2023 12:13:29:171  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___videowidth to complex: session:videowidth  as [unknown]
+13/02/2023 12:13:29:171  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___vpcalledextension to complex: session:vpcalledextension  as [unknown]
+13/02/2023 12:13:29:171  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___vpcoveragereason to complex: session:vpcoveragereason  as [unknown]
+13/02/2023 12:13:29:171  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___vpcoveragetype to complex: session:vpcoveragetype  as [unknown]
+13/02/2023 12:13:29:172  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :session___vprdnis to complex: session:vprdnis  as [unknown]
+13/02/2023 12:13:29:172  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :shareduui___id to complex: shareduui:id  as [unknown]
+13/02/2023 12:13:29:172  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :shareduui___value to complex: shareduui:value  as [unknown]
+13/02/2023 12:13:29:231  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Entered Welcome Node
+13/02/2023 12:13:29:265  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Using SCESession 9760C480511027482679122CF7094B30:/BloodBank servlet : ServiceSelect
+13/02/2023 12:13:29:324  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Entered Service Select Node
+13/02/2023 12:13:35:659  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Using SCESession 9760C480511027482679122CF7094B30:/BloodBank servlet : RegionSelection
+13/02/2023 12:13:35:659  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :ServiceSelect___confidence to complex: ServiceSelect:confidence  as [0.949999988079071]
+13/02/2023 12:13:35:660  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :ServiceSelect___inputmode to complex: ServiceSelect:inputmode  as [dtmf]
+13/02/2023 12:13:35:660  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :ServiceSelect___interpretation to complex: ServiceSelect:interpretation  as [1]
+13/02/2023 12:13:35:660  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :ServiceSelect___noinputcount to complex: ServiceSelect:noinputcount  as [0]
+13/02/2023 12:13:35:660  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :ServiceSelect___nomatchcount to complex: ServiceSelect:nomatchcount  as [0]
+13/02/2023 12:13:35:661  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :ServiceSelect___utterance to complex: ServiceSelect:utterance  as [1]
+13/02/2023 12:13:35:661  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :ServiceSelect___value to complex: ServiceSelect:value  as [1]
+13/02/2023 12:13:35:725  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Entered Region Select Node
+13/02/2023 12:13:36:072  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Update Region Prompt Start
+13/02/2023 12:13:36:073  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Update Region Prompt End
+13/02/2023 12:13:36:073  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Update Chennai north choice  End
+13/02/2023 12:13:52:358  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Using SCESession 9760C480511027482679122CF7094B30:/BloodBank servlet : BranchSelection
+13/02/2023 12:13:52:359  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :RegionSelection___confidence to complex: RegionSelection:confidence  as [0.949999988079071]
+13/02/2023 12:13:52:359  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :RegionSelection___inputmode to complex: RegionSelection:inputmode  as [dtmf]
+13/02/2023 12:13:52:359  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :RegionSelection___interpretation to complex: RegionSelection:interpretation  as [1]
+13/02/2023 12:13:52:359  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :RegionSelection___noinputcount to complex: RegionSelection:noinputcount  as [0]
+13/02/2023 12:13:52:359  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :RegionSelection___nomatchcount to complex: RegionSelection:nomatchcount  as [0]
+13/02/2023 12:13:52:359  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :RegionSelection___utterance to complex: RegionSelection:utterance  as [1]
+13/02/2023 12:13:52:359  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :RegionSelection___value to complex: RegionSelection:value  as [1]
+13/02/2023 12:13:52:416  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Entered Branch Selection Node
+13/02/2023 12:13:52:478  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Update Branch prompt Start
+13/02/2023 12:13:52:479  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Update Branch prompt End
+13/02/2023 12:13:52:479  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Update Branch choice End
+13/02/2023 12:13:52:480  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Update Chennai north choice  End
+13/02/2023 12:14:11:084  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Using SCESession 9760C480511027482679122CF7094B30:/BloodBank servlet : Blood_group
+13/02/2023 12:14:11:085  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :BranchSelection___confidence to complex: BranchSelection:confidence  as [0.949999988079071]
+13/02/2023 12:14:11:085  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :BranchSelection___inputmode to complex: BranchSelection:inputmode  as [dtmf]
+13/02/2023 12:14:11:085  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :BranchSelection___interpretation to complex: BranchSelection:interpretation  as [5]
+13/02/2023 12:14:11:086  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :BranchSelection___noinputcount to complex: BranchSelection:noinputcount  as [0]
+13/02/2023 12:14:11:086  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :BranchSelection___nomatchcount to complex: BranchSelection:nomatchcount  as [0]
+13/02/2023 12:14:11:087  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :BranchSelection___utterance to complex: BranchSelection:utterance  as [5]
+13/02/2023 12:14:11:088  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :BranchSelection___value to complex: BranchSelection:value  as [5]
+13/02/2023 12:14:11:142  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Entered Blood group Select Node
+13/02/2023 12:14:11:242  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Update Blood group Prompt Start
+13/02/2023 12:14:11:242  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Update Blood group Prompt End
+13/02/2023 12:14:11:242  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Update Blood group Choice Start
+13/02/2023 12:14:11:243  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Update Blood group choice End
+13/02/2023 12:14:17:410  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Using SCESession 9760C480511027482679122CF7094B30:/BloodBank servlet : BranchSelect
+13/02/2023 12:14:17:411  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :Blood_group___confidence to complex: Blood_group:confidence  as [0.949999988079071]
+13/02/2023 12:14:17:411  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :Blood_group___inputmode to complex: Blood_group:inputmode  as [dtmf]
+13/02/2023 12:14:17:412  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :Blood_group___interpretation to complex: Blood_group:interpretation  as [1]
+13/02/2023 12:14:17:427  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :Blood_group___noinputcount to complex: Blood_group:noinputcount  as [0]
+13/02/2023 12:14:17:427  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :Blood_group___nomatchcount to complex: Blood_group:nomatchcount  as [0]
+13/02/2023 12:14:17:427  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :Blood_group___utterance to complex: Blood_group:utterance  as [1]
+13/02/2023 12:14:17:427  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Storing :Blood_group___value to complex: Blood_group:value  as [1]
+13/02/2023 12:14:17:500  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Entered Branch Select Node
+13/02/2023 12:14:17:581  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Using SCESession 9760C480511027482679122CF7094B30:/BloodBank servlet : Available_units
+13/02/2023 12:14:17:647  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Entered available units node
+13/02/2023 12:14:17:732  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Update Available Units prompt Start
+13/02/2023 12:14:17:732  INFO - 9760C480511027482679122CF7094B30:/BloodBank : session id:sess3350149 | Update Available Units prompt End
+13/02/2023 12:14:20:141  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Using SCESession 9760C480511027482679122CF7094B30:/BloodBank servlet : Disconnect
+13/02/2023 12:14:20:223  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Using SCESession 9760C480511027482679122CF7094B30:/BloodBank servlet : Exit
+13/02/2023 12:14:20:314  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Removing session from AvayaSessionTermination Servlet
+13/02/2023 12:14:20:316  INFO - 9760C480511027482679122CF7094B30:/BloodBank : Termination URL reply : <?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us">
+</vxml>
+
+13/02/2023 12:14:20:318  INFO - 9760C480511027482679122CF7094B30:/BloodBank : HTTP Session lost removing SCESession 9760C480511027482679122CF7094B30
+13/02/2023 12:14:20:318  INFO - 9760C480511027482679122CF7094B30:/BloodBank : SCESession Removed
+13/02/2023 12:14:20:318 DEBUG - 9760C480511027482679122CF7094B30:/BloodBank : Removing 1 session stack frames.
+13/02/2023 12:14:20:319  INFO - 9760C480511027482679122CF7094B30:/BloodBank : ** Popped Stack Frame [/BloodBank]
+13/02/2023 12:31:29:678  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : SCESession bound to HttpSession AADA42E9321C175AEE3D240D35FA6FC8
+13/02/2023 12:31:29:828  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Browser Version 2.1.4, terminationURL enabled : true
+13/02/2023 12:31:29:837  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Using SCESession AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank servlet : Start
+13/02/2023 12:31:29:875  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : ** Pushed Stack Frame [/BloodBank]
+13/02/2023 12:31:29:896 DEBUG - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Not able to save posted variable information [call_classification]
+13/02/2023 12:31:29:896  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___sessionid to complex: session:sessionid  as [sess4315569]
+13/02/2023 12:31:29:896  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___vpconverseondata to complex: session:vpconverseondata  as []
+13/02/2023 12:31:30:543  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : runtime_platform : Desktop
+13/02/2023 12:31:30:543  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : runtime_asr : Desktop Microsoft Speech SAPI
+13/02/2023 12:31:30:554 DEBUG - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Acquiring initial License
+13/02/2023 12:31:30:555  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Acquiring Desktop runtime license
+13/02/2023 12:31:30:555  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Runtime :true
+13/02/2023 12:31:30:555  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : IC :true
+13/02/2023 12:31:30:555  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : CTI :true
+13/02/2023 12:31:30:579 DEBUG - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Grace Period timer cleared
+13/02/2023 12:31:30:581 DEBUG - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : License refresh timer started
+13/02/2023 12:31:30:585  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : MessageType is speech
+13/02/2023 12:31:30:629  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Using SCESession AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank servlet : Greetings
+13/02/2023 12:31:30:630  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :_sipcallid to simple: _sipcallid  as [unknown]
+13/02/2023 12:31:30:631  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :redirectinfo___presentationinfo to complex: redirectinfo:presentationinfo  as [undefined]
+13/02/2023 12:31:30:631  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :redirectinfo___reason to complex: redirectinfo:reason  as [unknown]
+13/02/2023 12:31:30:631  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :redirectinfo___screeninginfo to complex: redirectinfo:screeninginfo  as [undefined]
+13/02/2023 12:31:30:631  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :redirectinfo___uri to complex: redirectinfo:uri  as [3000]
+13/02/2023 12:31:30:631  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___aai to complex: session:aai  as []
+13/02/2023 12:31:30:631  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___ani to complex: session:ani  as [2000]
+13/02/2023 12:31:30:632  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___calltag to complex: session:calltag  as [unknown]
+13/02/2023 12:31:30:632  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___channel to complex: session:channel  as [0]
+13/02/2023 12:31:30:632  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___conversefirst to complex: session:conversefirst  as [unknown]
+13/02/2023 12:31:30:632  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___conversesecond to complex: session:conversesecond  as [unknown]
+13/02/2023 12:31:30:632  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___dnis to complex: session:dnis  as [3000]
+13/02/2023 12:31:30:633  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___mediatype to complex: session:mediatype  as [unknown]
+13/02/2023 12:31:30:633  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___protocolname to complex: session:protocolname  as [pots]
+13/02/2023 12:31:30:633  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___protocolversion to complex: session:protocolversion  as [1]
+13/02/2023 12:31:30:633  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___sessionlabel to complex: session:sessionlabel  as [undefined]
+13/02/2023 12:31:30:633  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___sharedmode to complex: session:sharedmode  as [shared]
+13/02/2023 12:31:30:634  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___ucid to complex: session:ucid  as [undefined]
+13/02/2023 12:31:30:634  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___uui to complex: session:uui  as [unknown]
+13/02/2023 12:31:30:634  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___videobitrate to complex: session:videobitrate  as [unknown]
+13/02/2023 12:31:30:634  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___videocodec to complex: session:videocodec  as [unknown]
+13/02/2023 12:31:30:634  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___videoenabled to complex: session:videoenabled  as [unknown]
+13/02/2023 12:31:30:634  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___videofarfmtp to complex: session:videofarfmtp  as [unknown]
+13/02/2023 12:31:30:635  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___videoformat to complex: session:videoformat  as [unknown]
+13/02/2023 12:31:30:635  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___videofps to complex: session:videofps  as [unknown]
+13/02/2023 12:31:30:635  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___videoheight to complex: session:videoheight  as [unknown]
+13/02/2023 12:31:30:635  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___videonearfmtp to complex: session:videonearfmtp  as [unknown]
+13/02/2023 12:31:30:635  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___videowidth to complex: session:videowidth  as [unknown]
+13/02/2023 12:31:30:635  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___vpcalledextension to complex: session:vpcalledextension  as [unknown]
+13/02/2023 12:31:30:636  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___vpcoveragereason to complex: session:vpcoveragereason  as [unknown]
+13/02/2023 12:31:30:636  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___vpcoveragetype to complex: session:vpcoveragetype  as [unknown]
+13/02/2023 12:31:30:636  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :session___vprdnis to complex: session:vprdnis  as [unknown]
+13/02/2023 12:31:30:636  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :shareduui___id to complex: shareduui:id  as [unknown]
+13/02/2023 12:31:30:637  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :shareduui___value to complex: shareduui:value  as [unknown]
+13/02/2023 12:31:30:704  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Entered Welcome Node
+13/02/2023 12:31:30:752  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Using SCESession AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank servlet : ServiceSelect
+13/02/2023 12:31:30:813  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Entered Service Select Node
+13/02/2023 12:31:34:552  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Using SCESession AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank servlet : RegionSelection
+13/02/2023 12:31:34:552  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :ServiceSelect___confidence to complex: ServiceSelect:confidence  as [0.949999988079071]
+13/02/2023 12:31:34:553  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :ServiceSelect___inputmode to complex: ServiceSelect:inputmode  as [dtmf]
+13/02/2023 12:31:34:553  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :ServiceSelect___interpretation to complex: ServiceSelect:interpretation  as [1]
+13/02/2023 12:31:34:553  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :ServiceSelect___noinputcount to complex: ServiceSelect:noinputcount  as [0]
+13/02/2023 12:31:34:554  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :ServiceSelect___nomatchcount to complex: ServiceSelect:nomatchcount  as [0]
+13/02/2023 12:31:34:554  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :ServiceSelect___utterance to complex: ServiceSelect:utterance  as [1]
+13/02/2023 12:31:34:554  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :ServiceSelect___value to complex: ServiceSelect:value  as [1]
+13/02/2023 12:31:34:611  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Entered Region Select Node
+13/02/2023 12:31:35:795  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Region Prompt Start
+13/02/2023 12:31:35:795  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Region Prompt End
+13/02/2023 12:31:35:796  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Region Choice Start
+13/02/2023 12:31:35:796  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Region Choice End
+13/02/2023 12:31:35:796  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Region Choice End
+13/02/2023 12:31:51:821  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Using SCESession AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank servlet : BranchSelection
+13/02/2023 12:31:51:821  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :RegionSelection___confidence to complex: RegionSelection:confidence  as [0.949999988079071]
+13/02/2023 12:31:51:821  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :RegionSelection___inputmode to complex: RegionSelection:inputmode  as [dtmf]
+13/02/2023 12:31:51:821  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :RegionSelection___interpretation to complex: RegionSelection:interpretation  as [1]
+13/02/2023 12:31:51:822  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :RegionSelection___noinputcount to complex: RegionSelection:noinputcount  as [0]
+13/02/2023 12:31:51:822  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :RegionSelection___nomatchcount to complex: RegionSelection:nomatchcount  as [0]
+13/02/2023 12:31:51:822  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :RegionSelection___utterance to complex: RegionSelection:utterance  as [1]
+13/02/2023 12:31:51:822  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :RegionSelection___value to complex: RegionSelection:value  as [1]
+13/02/2023 12:31:51:886  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Entered Branch Selection Node
+13/02/2023 12:31:52:003  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Branch prompt Start
+13/02/2023 12:31:52:004  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Branch prompt End
+13/02/2023 12:31:52:004  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Branch choice End
+13/02/2023 12:31:52:004  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Chennai north choice  End
+13/02/2023 12:32:04:637  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Using SCESession AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank servlet : ChoiceProcessing
+13/02/2023 12:32:04:637  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___confidence to complex: BranchSelection:confidence  as [0.949999988079071]
+13/02/2023 12:32:04:638  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___inputmode to complex: BranchSelection:inputmode  as [dtmf]
+13/02/2023 12:32:04:639  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___interpretation to complex: BranchSelection:interpretation  as [9]
+13/02/2023 12:32:04:640  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___noinputcount to complex: BranchSelection:noinputcount  as [0]
+13/02/2023 12:32:04:641  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___nomatchcount to complex: BranchSelection:nomatchcount  as [0]
+13/02/2023 12:32:04:641  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___utterance to complex: BranchSelection:utterance  as [9]
+13/02/2023 12:32:04:642  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___value to complex: BranchSelection:value  as [9]
+13/02/2023 12:32:04:710  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Using SCESession AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank servlet : BranchSelection
+13/02/2023 12:32:04:776  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Entered Branch Selection Node
+13/02/2023 12:32:04:828  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Branch prompt Start
+13/02/2023 12:32:04:828  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Branch prompt End
+13/02/2023 12:32:04:829  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Branch choice End
+13/02/2023 12:32:04:829  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Chennai north choice  End
+13/02/2023 12:32:12:527  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Using SCESession AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank servlet : ChoiceProcessing
+13/02/2023 12:32:12:528  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___confidence to complex: BranchSelection:confidence  as [0.949999988079071]
+13/02/2023 12:32:12:528  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___inputmode to complex: BranchSelection:inputmode  as [dtmf]
+13/02/2023 12:32:12:528  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___interpretation to complex: BranchSelection:interpretation  as [9]
+13/02/2023 12:32:12:528  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___noinputcount to complex: BranchSelection:noinputcount  as [0]
+13/02/2023 12:32:12:528  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___nomatchcount to complex: BranchSelection:nomatchcount  as [0]
+13/02/2023 12:32:12:528  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___utterance to complex: BranchSelection:utterance  as [9]
+13/02/2023 12:32:12:528  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___value to complex: BranchSelection:value  as [9]
+13/02/2023 12:32:12:581  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Using SCESession AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank servlet : BranchSelection
+13/02/2023 12:32:12:641  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Entered Branch Selection Node
+13/02/2023 12:32:12:694  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Branch prompt Start
+13/02/2023 12:32:12:695  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Branch prompt End
+13/02/2023 12:32:12:695  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Branch choice End
+13/02/2023 12:32:12:695  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Chennai north choice  End
+13/02/2023 12:32:16:505  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Using SCESession AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank servlet : Blood_group
+13/02/2023 12:32:16:505  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___confidence to complex: BranchSelection:confidence  as [0.949999988079071]
+13/02/2023 12:32:16:505  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___inputmode to complex: BranchSelection:inputmode  as [dtmf]
+13/02/2023 12:32:16:505  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___interpretation to complex: BranchSelection:interpretation  as [6]
+13/02/2023 12:32:16:505  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___noinputcount to complex: BranchSelection:noinputcount  as [0]
+13/02/2023 12:32:16:506  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___nomatchcount to complex: BranchSelection:nomatchcount  as [0]
+13/02/2023 12:32:16:506  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___utterance to complex: BranchSelection:utterance  as [6]
+13/02/2023 12:32:16:506  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :BranchSelection___value to complex: BranchSelection:value  as [6]
+13/02/2023 12:32:16:572  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Entered Blood group Select Node
+13/02/2023 12:32:16:679  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Blood group Prompt Start
+13/02/2023 12:32:16:681  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Blood group Prompt End
+13/02/2023 12:32:16:681  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Blood group Choice Start
+13/02/2023 12:32:16:682  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Blood group choice End
+13/02/2023 12:32:20:627  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Using SCESession AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank servlet : BranchSelect
+13/02/2023 12:32:20:629  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :Blood_group___confidence to complex: Blood_group:confidence  as [0.949999988079071]
+13/02/2023 12:32:20:630  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :Blood_group___inputmode to complex: Blood_group:inputmode  as [dtmf]
+13/02/2023 12:32:20:633  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :Blood_group___interpretation to complex: Blood_group:interpretation  as [1]
+13/02/2023 12:32:20:634  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :Blood_group___noinputcount to complex: Blood_group:noinputcount  as [0]
+13/02/2023 12:32:20:634  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :Blood_group___nomatchcount to complex: Blood_group:nomatchcount  as [0]
+13/02/2023 12:32:20:635  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :Blood_group___utterance to complex: Blood_group:utterance  as [1]
+13/02/2023 12:32:20:636  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Storing :Blood_group___value to complex: Blood_group:value  as [1]
+13/02/2023 12:32:20:707  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Entered Branch Select Node
+13/02/2023 12:32:21:077  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Using SCESession AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank servlet : Available_units
+13/02/2023 12:32:21:142  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Entered available units node
+13/02/2023 12:32:21:218  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Available Units prompt Start
+13/02/2023 12:32:21:219  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : session id:sess4315569 | Update Available Units prompt End
+13/02/2023 12:32:23:360  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Using SCESession AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank servlet : Disconnect
+13/02/2023 12:32:23:436  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Using SCESession AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank servlet : Exit
+13/02/2023 12:32:23:512  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Removing session from AvayaSessionTermination Servlet
+13/02/2023 12:32:23:514  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Termination URL reply : <?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us">
+</vxml>
+
+13/02/2023 12:32:23:517  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : HTTP Session lost removing SCESession AADA42E9321C175AEE3D240D35FA6FC8
+13/02/2023 12:32:23:517  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : SCESession Removed
+13/02/2023 12:32:23:517 DEBUG - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : Removing 1 session stack frames.
+13/02/2023 12:32:23:518  INFO - AADA42E9321C175AEE3D240D35FA6FC8:/BloodBank : ** Popped Stack Frame [/BloodBank]

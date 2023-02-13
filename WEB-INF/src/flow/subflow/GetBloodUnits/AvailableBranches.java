@@ -6,6 +6,8 @@ import java.util.List;
 import org.util.ApiIntegration;
 
 import com.avaya.sce.runtime.Prompt;
+import com.avaya.sce.runtime.tracking.TraceInfo;
+import com.avaya.sce.runtimecommon.ITraceInfo;
 import com.avaya.sce.runtimecommon.SCESession;
 
 import flow.IProjectVariables;
@@ -241,7 +243,10 @@ public class AvailableBranches extends com.avaya.sce.runtime.Form {
 	List<String> availablebranchlist=null;
 	@Override
 	public void requestBegin(SCESession mySession) {
-System.out.println("Entered Available Branches node");
+		
+		TraceInfo.trace(ITraceInfo.TRACE_LEVEL_INFO,"Entered Available Branches node", mySession);
+		mySession.getVariableField(IProjectVariables.CALL__HISTORY, IProjectVariables.CALL__HISTORY_FIELD_EXITNODE).setValue("Available Branches node");
+
 		String bloodgroup= mySession.getVariableField(IProjectVariables.SELECT_BLOOD__GROUP, IProjectVariables.SELECT_BLOOD__GROUP_FIELD_VALUE).getStringValue();
 		System.out.println(bloodgroup);
 		ApiIntegration api = new ApiIntegration(mySession);

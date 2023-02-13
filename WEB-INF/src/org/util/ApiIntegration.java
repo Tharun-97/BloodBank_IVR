@@ -14,6 +14,8 @@ import org.apache.http.impl.client.HttpClientBuilder;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import com.avaya.sce.runtime.tracking.TraceInfo;
+import com.avaya.sce.runtimecommon.ITraceInfo;
 import com.avaya.sce.runtimecommon.SCESession;
 
 public class ApiIntegration {
@@ -68,11 +70,11 @@ public class ApiIntegration {
 		}
 		System.out.println(result);
 		} catch (ClientProtocolException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in API Access -  "+e.getMessage(), session);
+
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in API Access  -  "+e.getMessage(), session);
+
 		}
 
 		return result;
@@ -112,9 +114,11 @@ public class ApiIntegration {
 			result = object.getString("Response");
 
 		} catch (ClientProtocolException e) {
-			e.printStackTrace();
+			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in API Access -  "+e.getMessage(), session);
+
 		} catch (IOException e) {
-			e.printStackTrace();
+			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in API Access -  "+e.getMessage(), session);
+
 		}
 		return result;
 	}
@@ -171,11 +175,11 @@ public class ApiIntegration {
 		
 		System.out.println("\n Available units "+result);
 		} catch (ClientProtocolException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in API Access -  "+e.getMessage(), session);
+
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in API Access  -  "+e.getMessage(), session);
+
 		}
 		return result;
 	}

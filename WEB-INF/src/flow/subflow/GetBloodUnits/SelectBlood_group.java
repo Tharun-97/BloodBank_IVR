@@ -6,7 +6,11 @@ import java.util.List;
 import org.util.ApiIntegration;
 
 import com.avaya.sce.runtime.Prompt;
+import com.avaya.sce.runtime.tracking.TraceInfo;
+import com.avaya.sce.runtimecommon.ITraceInfo;
 import com.avaya.sce.runtimecommon.SCESession;
+
+import flow.IProjectVariables;
 
 /**
  * Class that represents a menu.  A menu can contain prompts, choices and links
@@ -114,8 +118,7 @@ public class SelectBlood_group extends com.avaya.sce.runtime.Menu {
 
 
 		choice = new com.avaya.sce.runtime.Choice("Exit", "0", true, "exact", "GetBloodUnits-exit", grammarInfo, true);
-		list.add(choice);
-
+		
 		return(list);
 	}
 	/**
@@ -154,7 +157,10 @@ public class SelectBlood_group extends com.avaya.sce.runtime.Menu {
 	List<String> bloodGrouplist=null;
 	@Override
 	public void requestBegin(SCESession mySession) {
-
+		
+			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_INFO,"Blood Group choose Node", mySession);
+			mySession.getVariableField(IProjectVariables.CALL__HISTORY, IProjectVariables.CALL__HISTORY_FIELD_EXITNODE).setValue("Blood Group choose Node");
+			
 		ApiIntegration api = new ApiIntegration(mySession);
 	
 		try {
