@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <projectvariables>
-    <variable factoryID="" name="AudioURLs:BloodGroupSelect" owner="" type="" value="D:\IVR Audios\BloodBank\BloodGroupSelect.wav" version="1.0"/>
-    <variable factoryID="" name="AudioURLs:BranchSelect" owner="" type="" value="D:\IVR Audios\BloodBank\BranchSelect.wav" version="1.0"/>
-    <variable factoryID="" name="AudioURLs:Greetings" owner="" type="" value="D:\IVR Audios\BloodBank\Greetings.wav" version="1.0"/>
-    <variable factoryID="" name="AudioURLs:Next" owner="" type="" value="D:\IVR Audios\BloodBank\Next.wav" version="1.0"/>
-    <variable factoryID="" name="AudioURLs:NullInput" owner="" type="" value="D:\IVR Audios\BloodBank\NullInput.wav" version="1.0"/>
-    <variable factoryID="" name="AudioURLs:Previous" owner="" type="" value="D:\IVR Audios\BloodBank\Previous.wav" version="1.0"/>
-    <variable factoryID="" name="AudioURLs:RegionSelect" owner="" type="" value="D:\IVR Audios\BloodBank\RegionSelect.wav" version="1.0"/>
-    <variable factoryID="" name="AudioURLs:Repeat" owner="" type="" value="D:\IVR Audios\BloodBank\Repeat.wav" version="1.0"/>
-    <variable factoryID="" name="AudioURLs:ServiceSelect" owner="" type="" value="D:\IVR Audios\BloodBank\ServiceSelect.wav" version="1.0"/>
-    <variable factoryID="" name="AudioURLs:WrongInput" owner="" type="" value="D:\IVR Audios\BloodBank\WrongInput.wav" version="1.0"/>
+    <variable factoryID="" name="AudioURLs:BloodGroupSelect" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/BloodGroupSelect.wav" version="1.0"/>
+    <variable factoryID="" name="AudioURLs:BranchSelect" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/BranchSelect.wav" version="1.0"/>
+    <variable factoryID="" name="AudioURLs:Error" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Error.wav" version="1.0"/>
+    <variable factoryID="" name="AudioURLs:Greetings" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Greetings.wav" version="1.0"/>
+    <variable factoryID="" name="AudioURLs:MaxLimit" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/MaxLimit.wav" version="1.0"/>
+    <variable factoryID="" name="AudioURLs:Next" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Next.wav" version="1.0"/>
+    <variable factoryID="" name="AudioURLs:NullInput" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/NullInput.wav" version="1.0"/>
+    <variable factoryID="" name="AudioURLs:Previous" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Previous.wav" version="1.0"/>
+    <variable factoryID="" name="AudioURLs:RegionSelect" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/RegionSelect.wav" version="1.0"/>
+    <variable factoryID="" name="AudioURLs:Repeat" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Repeat.wav" version="1.0"/>
+    <variable factoryID="" name="AudioURLs:ServiceSelect" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/ServiceSelect.wav" version="1.0"/>
+    <variable factoryID="" name="AudioURLs:WrongInput" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/WrongInput.wav" version="1.0"/>
     <variable factoryID="" name="Blood_group:confidence" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
         <editpolicies>
             <policy name="opaque" value="true"/>
@@ -252,12 +254,12 @@
             <policy name="renameable" value="false"/>
         </editpolicies>
     </variable>
-    <variable factoryID="" name="DTMFaudio:Press1" owner="" type="" value="D:\IVR Audios\BloodBank\Press1.wav" version="1.0"/>
-    <variable factoryID="" name="DTMFaudio:Press2" owner="" type="" value="D:\IVR Audios\BloodBank\Press2.wav" version="1.0"/>
-    <variable factoryID="" name="DTMFaudio:Press3" owner="" type="" value="D:\IVR Audios\BloodBank\Press3.wav" version="1.0"/>
-    <variable factoryID="" name="DTMFaudio:Press4" owner="" type="" value="D:\IVR Audios\BloodBank\Press4.wav" version="1.0"/>
-    <variable factoryID="" name="DTMFaudio:Press5" owner="" type="" value="D:\IVR Audios\BloodBank\Press5.wav" version="1.0"/>
-    <variable factoryID="" name="DTMFaudio:Press6" owner="" type="" value="D:\IVR Audios\BloodBank\Press6.wav" version="1.0"/>
+    <variable factoryID="" name="DTMFaudio:Press1" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Press1.wav" version="1.0"/>
+    <variable factoryID="" name="DTMFaudio:Press2" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Press2.wav" version="1.0"/>
+    <variable factoryID="" name="DTMFaudio:Press3" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Press3.wav" version="1.0"/>
+    <variable factoryID="" name="DTMFaudio:Press4" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Press4.wav" version="1.0"/>
+    <variable factoryID="" name="DTMFaudio:Press5" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Press5.wav" version="1.0"/>
+    <variable factoryID="" name="DTMFaudio:Press6" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Press6.wav" version="1.0"/>
     <variable factoryID="" name="PageNumber:MenuPageNumber" owner="" type="" value="0" version="1.0"/>
     <variable factoryID="" name="redirectinfo:presentationinfo" owner="com.avaya.sce.core" type="com.avaya.sce.core.redirect" value="" version="1.0">
         <editpolicies>
