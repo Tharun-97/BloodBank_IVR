@@ -71,10 +71,13 @@ public class ApiIntegration {
 		System.out.println(result);
 		} catch (ClientProtocolException e) {
 			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in API Access -  "+e.getMessage(), session);
-
+			return null;
 		} catch (IOException e) {
 			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in API Access  -  "+e.getMessage(), session);
-
+			return null;
+		}catch (Exception e) {
+			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in getting result  -  "+e.getMessage(), session);
+			return null;
 		}
 
 		return result;
@@ -115,10 +118,13 @@ public class ApiIntegration {
 
 		} catch (ClientProtocolException e) {
 			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in API Access -  "+e.getMessage(), session);
-
+			return null;
 		} catch (IOException e) {
 			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in API Access -  "+e.getMessage(), session);
-
+			return null;
+		}catch (Exception e) {
+			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in getting result  -  "+e.getMessage(), session);
+			return null;
 		}
 		return result;
 	}
@@ -162,7 +168,6 @@ public class ApiIntegration {
 		result = new ArrayList<String>();
 		for (int i = 0; i < string.length(); i++) {
 			JSONObject Object = string.getJSONObject(i);
-			// System.out.println("\n"+string.getJSONObject(i));
 			 
 			 String s = Object.get("branch").toString();
 
@@ -183,6 +188,14 @@ public class ApiIntegration {
 		}
 		return result;
 	}
+	
+	
+	
+	
+	
+	
+	
+	
 	public static void main(String[] args) throws ClientProtocolException, IOException {
 
 		ApiIntegration api = new ApiIntegration(null);
@@ -194,7 +207,7 @@ public class ApiIntegration {
 
 		
 		 //System.out.println("\nBranch List By RegionID: "); 
-		//List<String> branchlist = api.ApiIntegrationList("http://172.16.11.88:8010/BloodBank/branches/listOfBranchByRegionId/"+1,"branchLocation");
+		List<String> branchlist = api.ApiIntegrationList("http://172.16.11.88:8010/BloodBank/branches/listOfBranchByRegionId/"+3,"branchLocation");
 		  
 		
 		//  System.err.println("\nSelect Branch By Id: "); 

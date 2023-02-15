@@ -208,6 +208,63 @@ Copyright 2004-2021 Avaya Inc.
         <servlet-name>ErrorMessage</servlet-name>
         <servlet-class>flow.ErrorMessage</servlet-class>
     </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_Noinput_1">
+        <servlet-name>Noinput-Begin</servlet-name>
+        <servlet-class>flow.subflow.Noinput.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_Noinput_4">
+        <servlet-name>Noinput-untitledData1</servlet-name>
+        <servlet-class>flow.subflow.Noinput.untitledData1</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_Noinput_8">
+        <servlet-name>Noinput-untitledSubReturn1</servlet-name>
+        <servlet-class>flow.subflow.Noinput.untitledSubReturn1</servlet-class>
+    </servlet>
+    
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_774">
+        <servlet-name>NoInputRegion</servlet-name>
+        <servlet-class>flow.NoInputRegion</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_778">
+        <servlet-name>NoMatchRegion</servlet-name>
+        <servlet-class>flow.NoMatchRegion</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_786">
+        <servlet-name>NoInputService</servlet-name>
+        <servlet-class>flow.NoInputService</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_790">
+        <servlet-name>NoMatchService</servlet-name>
+        <servlet-class>flow.NoMatchService</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_800">
+        <servlet-name>NoInputBranch</servlet-name>
+        <servlet-class>flow.NoInputBranch</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_806">
+        <servlet-name>NoMatchBranch</servlet-name>
+        <servlet-class>flow.NoMatchBranch</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_813">
+        <servlet-name>NoInputBloodGroup</servlet-name>
+        <servlet-class>flow.NoInputBloodGroup</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_817">
+        <servlet-name>NoMatchBloodGroup</servlet-name>
+        <servlet-class>flow.NoMatchBloodGroup</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_GetBloodUnits_113">
+        <servlet-name>GetBloodUnits-NoMatchBloodGroup</servlet-name>
+        <servlet-class>flow.subflow.GetBloodUnits.NoMatchBloodGroup</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_GetBloodUnits_108">
+        <servlet-name>GetBloodUnits-NoInputBloodGroup</servlet-name>
+        <servlet-class>flow.subflow.GetBloodUnits.NoInputBloodGroup</servlet-class>
+    </servlet>
     <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
         <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
         <url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
@@ -338,6 +395,62 @@ Copyright 2004-2021 Avaya Inc.
         <servlet-name>ErrorMessage</servlet-name>
         <url-pattern>/ErrorMessage</url-pattern>
     </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_Noinput_1">
+        <servlet-name>Noinput-Begin</servlet-name>
+        <url-pattern>/Noinput-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_Noinput_4">
+        <servlet-name>Noinput-untitledData1</servlet-name>
+        <url-pattern>/Noinput-untitledData1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_Noinput_8">
+        <servlet-name>Noinput-untitledSubReturn1</servlet-name>
+        <url-pattern>/Noinput-untitledSubReturn1</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_774">
+        <servlet-name>NoInputRegion</servlet-name>
+        <url-pattern>/NoInputRegion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_778">
+        <servlet-name>NoMatchRegion</servlet-name>
+        <url-pattern>/NoMatchRegion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_786">
+        <servlet-name>NoInputService</servlet-name>
+        <url-pattern>/NoInputService</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_790">
+        <servlet-name>NoMatchService</servlet-name>
+        <url-pattern>/NoMatchService</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_800">
+        <servlet-name>NoInputBranch</servlet-name>
+        <url-pattern>/NoInputBranch</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_806">
+        <servlet-name>NoMatchBranch</servlet-name>
+        <url-pattern>/NoMatchBranch</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_813">
+        <servlet-name>NoInputBloodGroup</servlet-name>
+        <url-pattern>/NoInputBloodGroup</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_817">
+        <servlet-name>NoMatchBloodGroup</servlet-name>
+        <url-pattern>/NoMatchBloodGroup</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_GetBloodUnits_113">
+        <servlet-name>GetBloodUnits-NoMatchBloodGroup</servlet-name>
+        <url-pattern>/GetBloodUnits-NoMatchBloodGroup</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_GetBloodUnits_108">
+        <servlet-name>GetBloodUnits-NoInputBloodGroup</servlet-name>
+        <url-pattern>/GetBloodUnits-NoInputBloodGroup</url-pattern>
+    </servlet-mapping>
+    
     
     
     

@@ -6,12 +6,16 @@
     <variable factoryID="" name="AudioURLs:Greetings" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Greetings.wav" version="1.0"/>
     <variable factoryID="" name="AudioURLs:MaxLimit" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/MaxLimit.wav" version="1.0"/>
     <variable factoryID="" name="AudioURLs:Next" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Next.wav" version="1.0"/>
+    <variable factoryID="" name="AudioURLs:NoBranch" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/NoBranch.wav" version="1.0"/>
+    <variable factoryID="" name="AudioURLs:NoUnits" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/NoUnits.wav" version="1.0"/>
     <variable factoryID="" name="AudioURLs:NullInput" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/NullInput.wav" version="1.0"/>
     <variable factoryID="" name="AudioURLs:Previous" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Previous.wav" version="1.0"/>
     <variable factoryID="" name="AudioURLs:RegionSelect" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/RegionSelect.wav" version="1.0"/>
     <variable factoryID="" name="AudioURLs:Repeat" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Repeat.wav" version="1.0"/>
     <variable factoryID="" name="AudioURLs:ServiceSelect" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/ServiceSelect.wav" version="1.0"/>
+    <variable factoryID="" name="AudioURLs:UnitsAvailable" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/UnitsAvailable.wav" version="1.0"/>
     <variable factoryID="" name="AudioURLs:WrongInput" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/WrongInput.wav" version="1.0"/>
+    <variable factoryID="" name="AvailableUnits:Units" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="Blood_group:confidence" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
         <editpolicies>
             <policy name="opaque" value="true"/>
