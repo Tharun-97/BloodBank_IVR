@@ -1,5 +1,6 @@
 package flow.subflow.GetBloodUnits;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
@@ -283,15 +284,29 @@ public class AvailableBranches extends com.avaya.sce.runtime.Form {
 			String details = availablebranchlist.get(i);
 			System.out.println(details);
 			if (i%2==0) {
-				p.add(1, new com.avaya.sce.runtime.PromptElement(com.avaya.sce.runtime.PromptElement.TEXT,
-						details, null));
-			}
+					mySession.getVariableField(IProjectVariables.AVAILABLE_UNITS,IProjectVariables.AVAILABLE_UNITS_FIELD_BRANCH).setValue("http://172.16.11.88:8090/IVR_Audios/BloodBank/"+details+".wav");	
+					
+					 p.add(1, new com.avaya.sce.runtime.PhraseVariableElement("AvailableUnits:Branch",
+								com.avaya.sce.runtime.PhraseVariableElement.Type.AUDIO_URL, false));
+				}
+				 
+			
 			if (i%2!=0) {
-				p.add(1, new com.avaya.sce.runtime.PromptElement(com.avaya.sce.runtime.PromptElement.TEXT,
-						details+ " Units available", null));
+				
+					mySession.getVariableField(IProjectVariables.AVAILABLE_UNITS,IProjectVariables.AVAILABLE_UNITS_FIELD_UNITS).setValue(details);
+					
+					int value = mySession.getVariableField(IProjectVariables.AVAILABLE_UNITS,IProjectVariables.AVAILABLE_UNITS_FIELD_UNITS).getIntValue();
+					
+					TraceInfo.trace(ITraceInfo.TRACE_LEVEL_INFO,"Available units"+value, mySession);
+				
+				format = new com.avaya.sce.runtime.Format();
+				format.add("format","number");
+				format.add("Number Type","integer");
+				format.add("inflection","Nn");
+				p.add(1, new com.avaya.sce.runtime.PromptElement(com.avaya.sce.runtime.PromptElement.VARIABLE_AUDIO,"AvailableUnits:Units",format,false));
+				p.add(1, new com.avaya.sce.runtime.PhraseVariableElement("AudioURLs:UnitsAvailable",com.avaya.sce.runtime.PhraseVariableElement.Type.AUDIO_URL, false));
 			}
-		
-		}
+			}
 		
 		prompts.add(p);
 	}

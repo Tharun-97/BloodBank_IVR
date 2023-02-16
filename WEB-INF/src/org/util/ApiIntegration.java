@@ -207,7 +207,7 @@ public class ApiIntegration {
 
 		
 		 //System.out.println("\nBranch List By RegionID: "); 
-		List<String> branchlist = api.ApiIntegrationList("http://172.16.11.88:8010/BloodBank/branches/listOfBranchByRegionId/"+3,"branchLocation");
+		//List<String> branchlist = api.ApiIntegrationList("http://172.16.11.88:8010/BloodBank/branches/listOfBranchByRegionId/"+3,"branchLocation");
 		  
 		
 		//  System.err.println("\nSelect Branch By Id: "); 
@@ -220,6 +220,6 @@ public class ApiIntegration {
 		 //System.err.println("\nAvailable Units of Blood: "); 
 		// api.ApiIntegrationValue("http://172.16.11.88:8010/BloodBank/bloodGroups/getAvailableUnits/Guindy/1");
 		 
-		//api.ApiIntegrationListValues("http://172.16.11.88:8010/BloodBank/bloodGroups/listOfBranchAvailableUnits/1","availableUnits","branchLocation");
+		api.ApiIntegrationListValues("http://172.16.11.88:8010/BloodBank/bloodGroups/listOfBranchAvailableUnits/1","availableUnits","branchLocation");
 	}
 }

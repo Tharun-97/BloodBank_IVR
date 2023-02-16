@@ -265,6 +265,10 @@ Copyright 2004-2021 Avaya Inc.
         <servlet-name>GetBloodUnits-NoInputBloodGroup</servlet-name>
         <servlet-class>flow.subflow.GetBloodUnits.NoInputBloodGroup</servlet-class>
     </servlet>
+    <servlet id="SAGE-callflow-servlet_main_826">
+        <servlet-name>Thanks</servlet-name>
+        <servlet-class>flow.Thanks</servlet-class>
+    </servlet>
     <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
         <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
         <url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
@@ -449,6 +453,10 @@ Copyright 2004-2021 Avaya Inc.
     <servlet-mapping id="SAGE-callflow-servletmapping_GetBloodUnits_108">
         <servlet-name>GetBloodUnits-NoInputBloodGroup</servlet-name>
         <url-pattern>/GetBloodUnits-NoInputBloodGroup</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_826">
+        <servlet-name>Thanks</servlet-name>
+        <url-pattern>/Thanks</url-pattern>
     </servlet-mapping>
     
     

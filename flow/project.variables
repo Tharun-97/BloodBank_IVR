@@ -3,6 +3,7 @@
     <variable factoryID="" name="AudioURLs:BloodGroupSelect" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/BloodGroupSelect.wav" version="1.0"/>
     <variable factoryID="" name="AudioURLs:BranchSelect" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/BranchSelect.wav" version="1.0"/>
     <variable factoryID="" name="AudioURLs:Error" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Error.wav" version="1.0"/>
+    <variable factoryID="" name="AudioURLs:Exit" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Exit.wav" version="1.0"/>
     <variable factoryID="" name="AudioURLs:Greetings" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Greetings.wav" version="1.0"/>
     <variable factoryID="" name="AudioURLs:MaxLimit" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/MaxLimit.wav" version="1.0"/>
     <variable factoryID="" name="AudioURLs:Next" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Next.wav" version="1.0"/>
@@ -13,8 +14,10 @@
     <variable factoryID="" name="AudioURLs:RegionSelect" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/RegionSelect.wav" version="1.0"/>
     <variable factoryID="" name="AudioURLs:Repeat" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Repeat.wav" version="1.0"/>
     <variable factoryID="" name="AudioURLs:ServiceSelect" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/ServiceSelect.wav" version="1.0"/>
+    <variable factoryID="" name="AudioURLs:Thanks" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/Thanks.wav" version="1.0"/>
     <variable factoryID="" name="AudioURLs:UnitsAvailable" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/UnitsAvailable.wav" version="1.0"/>
     <variable factoryID="" name="AudioURLs:WrongInput" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/WrongInput.wav" version="1.0"/>
+    <variable factoryID="" name="AvailableUnits:Branch" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="AvailableUnits:Units" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="Blood_group:confidence" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
         <editpolicies>
