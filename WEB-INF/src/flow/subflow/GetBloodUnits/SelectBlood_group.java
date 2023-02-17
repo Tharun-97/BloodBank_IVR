@@ -4,6 +4,7 @@ import java.util.Collection;
 import java.util.List;
 
 import org.util.ApiIntegration;
+import org.util.ChoiceSelection;
 
 import com.avaya.sce.runtime.Prompt;
 import com.avaya.sce.runtime.tracking.TraceInfo;
@@ -187,7 +188,8 @@ public class SelectBlood_group extends com.avaya.sce.runtime.Menu {
 		p.setBargin(1, true);
 		com.avaya.sce.runtime.Format format = null;
 		p.add(1, new com.avaya.sce.runtime.PhraseVariableElement("AudioURLs:BloodGroupSelect",com.avaya.sce.runtime.PhraseVariableElement.Type.AUDIO_URL, false));
-
+		ChoiceSelection c=new ChoiceSelection();
+		
 		for (int i = 0; i < bloodGrouplist.size(); i++) {
 
 			String bloodgroup = bloodGrouplist.get(i);
@@ -195,45 +197,8 @@ public class SelectBlood_group extends com.avaya.sce.runtime.Menu {
 			
 			 p.add(1, new com.avaya.sce.runtime.PhraseVariableElement("DTMFaudio:Press"+dtmf+"",
 						com.avaya.sce.runtime.PhraseVariableElement.Type.AUDIO_URL, false));
-			
-		if (dtmf.equals("1")) {
-			 mySession.getVariableField(IProjectVariables.CHOICE_URLS,IProjectVariables.CHOICE_URLS_FIELD_CHOICE_1).setValue("http://172.16.11.88:8090/IVR_Audios/BloodBank/"+bloodgroup+".wav");	
-				
-
-			 p.add(1, new com.avaya.sce.runtime.PhraseVariableElement("ChoiceURLs:Choice1",
-						com.avaya.sce.runtime.PhraseVariableElement.Type.AUDIO_URL, false));
-			
-			}else if (dtmf.equals("2")) {
-				 mySession.getVariableField(IProjectVariables.CHOICE_URLS,IProjectVariables.CHOICE_URLS_FIELD_CHOICE_2).setValue("http://172.16.11.88:8090/IVR_Audios/BloodBank/"+bloodgroup+".wav");	
-					
-				  p.add(1, new com.avaya.sce.runtime.PhraseVariableElement("ChoiceURLs:Choice2",
-						    com.avaya.sce.runtime.PhraseVariableElement.Type.AUDIO_URL, false));
-			
-			}else if (dtmf.equals("3")) {
-				 mySession.getVariableField(IProjectVariables.CHOICE_URLS,IProjectVariables.CHOICE_URLS_FIELD_CHOICE_3).setValue("http://172.16.11.88:8090/IVR_Audios/BloodBank/"+bloodgroup+".wav");	
-				
-				 p.add(1, new com.avaya.sce.runtime.PhraseVariableElement("ChoiceURLs:Choice3",
-							com.avaya.sce.runtime.PhraseVariableElement.Type.AUDIO_URL, false));
-			
-			}else if (dtmf.equals("4")) {
-				 mySession.getVariableField(IProjectVariables.CHOICE_URLS,IProjectVariables.CHOICE_URLS_FIELD_CHOICE_4).setValue("http://172.16.11.88:8090/IVR_Audios/BloodBank/"+bloodgroup+".wav");	
-				
-				 p.add(1, new com.avaya.sce.runtime.PhraseVariableElement("ChoiceURLs:Choice4",
-							com.avaya.sce.runtime.PhraseVariableElement.Type.AUDIO_URL, false));
-			
-			}else if (dtmf.equals("5")) {
-				 mySession.getVariableField(IProjectVariables.CHOICE_URLS,IProjectVariables.CHOICE_URLS_FIELD_CHOICE_5).setValue("http://172.16.11.88:8090/IVR_Audios/BloodBank/"+bloodgroup+".wav");	
-				
-				 p.add(1, new com.avaya.sce.runtime.PhraseVariableElement("ChoiceURLs:Choice5",
-							com.avaya.sce.runtime.PhraseVariableElement.Type.AUDIO_URL, false));
-			
-			}else if (dtmf.equals("6")) {
-				 mySession.getVariableField(IProjectVariables.CHOICE_URLS,IProjectVariables.CHOICE_URLS_FIELD_CHOICE_6).setValue("http://172.16.11.88:8090/IVR_Audios/BloodBank/"+bloodgroup+".wav");	
-					
-				  p.add(1, new com.avaya.sce.runtime.PhraseVariableElement("ChoiceURLs:Choice6",
-							com.avaya.sce.runtime.PhraseVariableElement.Type.AUDIO_URL, false));
-					
-			}
+			 c.Choice(bloodgroup, dtmf, mySession, p);	
+		
 		}
 		prompts.add(p);
 

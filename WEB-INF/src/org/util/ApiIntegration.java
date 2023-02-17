@@ -67,20 +67,22 @@ public class ApiIntegration {
 
 			result.add(Object.get(name).toString());
 
-		}
-		System.out.println(result);
+		}System.out.println(result);
+		return result;
+		 
 		} catch (ClientProtocolException e) {
 			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in API Access -  "+e.getMessage(), session);
 			return null;
 		} catch (IOException e) {
-			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in API Access  -  "+e.getMessage(), session);
+			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in IO Access  -  "+e.getMessage(), session);
 			return null;
 		}catch (Exception e) {
 			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in getting result  -  "+e.getMessage(), session);
+			
 			return null;
 		}
 
-		return result;
+		
 	}
 		
 
