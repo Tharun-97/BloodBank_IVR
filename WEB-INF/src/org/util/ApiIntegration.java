@@ -26,72 +26,71 @@ public class ApiIntegration {
 		this.session = session;
 	}
 
-	public List<String> ApiIntegrationList(String url, String name){
-		
+	public List<String> ApiIntegrationList(String url, String name) {
+
 		CloseableHttpClient httpClient = HttpClientBuilder.create().build();
-		
+
 		HttpGet getRequest = new HttpGet(url);
 
 		getRequest.addHeader("accept", "application/json");
 
 		HttpResponse response;
-		List<String> result = null;
+		List<String> result = new ArrayList<String>();
 		try {
 			response = httpClient.execute(getRequest);
-		
-		if (response.getStatusLine().getStatusCode() != 200) {
-			throw new RuntimeException("Failed : HTTP error code : " + response.getStatusLine().getStatusCode());
-		}
 
-		BufferedReader br = new BufferedReader(new InputStreamReader((response.getEntity().getContent())));
+			if (response.getStatusLine().getStatusCode() != 200) {
+				throw new RuntimeException("Failed : HTTP error code : " + response.getStatusLine().getStatusCode());
+			}
 
-		String output = br.readLine();
+			BufferedReader br = new BufferedReader(new InputStreamReader((response.getEntity().getContent())));
 
-		JSONObject json = new JSONObject(output);
-		// System.out.println("JSON Object" + json);
+			String output = br.readLine();
 
-		String responsebody = json.getString("responseBody");
+			JSONObject json = new JSONObject(output);
+			// System.out.println("JSON Object" + json);
 
-		//System.out.println(responsebody);
-		
-		JSONObject js = new JSONObject(responsebody);
+			String responsebody = json.getString("responseBody");
 
-		JSONArray string = (JSONArray) js.get("ResponseList");
+			// System.out.println(responsebody);
 
-		// System.out.println("\n"+string.toString());
-		 result = new ArrayList<String>();
-		for (int i = 0; i < string.length(); i++) {
-			JSONObject Object = string.getJSONObject(i);
-			// System.out.println("\n"+string.getJSONObject(i));
-			// System.out.println("\n" + Object.get(id));
+			JSONObject js = new JSONObject(responsebody);
 
-			result.add(Object.get(name).toString());
+			JSONArray string = (JSONArray) js.get("ResponseList");
 
-		}System.out.println(result);
-		return result;
-		 
-		} catch (ClientProtocolException e) {
-			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in API Access -  "+e.getMessage(), session);
-			return null;
-		} catch (IOException e) {
-			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in IO Access  -  "+e.getMessage(), session);
-			return null;
-		}catch (Exception e) {
-			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in getting result  -  "+e.getMessage(), session);
+			// System.out.println("\n"+string.toString());
 			
+			for (int i = 0; i < string.length(); i++) {
+				JSONObject Object = string.getJSONObject(i);
+				// System.out.println("\n"+string.getJSONObject(i));
+				// System.out.println("\n" + Object.get(id));
+
+				result.add(Object.get(name).toString());
+
+			}
+			System.out.println(result);
+			return result;
+
+		} catch (ClientProtocolException e) {
+			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR, "Error in API Access -  " + e.getMessage(), session);
+			result.add("noapi");
+			return result;
+		} catch (IOException e) {
+			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR, "Error in IO Access  -  " + e.getMessage(), session);
+			result.add("noinput");
+			return result;
+		} catch (Exception e) {
+			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR, "Error in getting result  -  " + e.getMessage(), session);
 			return null;
 		}
 
-		
 	}
-		
 
 	public String ApiIntegrationValue(String url) {
 		String result = null;
 		try {
 
 			CloseableHttpClient httpClient = HttpClientBuilder.create().build();
-
 
 			HttpGet getRequest = new HttpGet(url);
 
@@ -112,116 +111,110 @@ public class ApiIntegration {
 
 			String string = json.getString("responseBody");
 			System.out.println(string);
-			
+
 			JSONObject object = new JSONObject(string);
 			System.out.println("\n" + object.getString("Response"));
-			
-			result = object.getString("Response");
 
+			result = object.getString("Response");
+			return result;
 		} catch (ClientProtocolException e) {
-			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in API Access -  "+e.getMessage(), session);
-			return null;
+			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR, "Error in API Access -  " + e.getMessage(), session);
+			return "noapi";
 		} catch (IOException e) {
-			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in API Access -  "+e.getMessage(), session);
-			return null;
-		}catch (Exception e) {
-			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in getting result  -  "+e.getMessage(), session);
+			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR, "Error in IO Access -  " + e.getMessage(), session);
+			return "noinput";
+		} catch (Exception e) {
+			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR, "Error in getting result  -  " + e.getMessage(), session);
 			return null;
 		}
-		return result;
+
 	}
 
-	public List<String> ApiIntegrationListValues(String url, String name,String branch){
-		
+	public List<String> ApiIntegrationListValues(String url, String name, String branch) {
+
 		CloseableHttpClient httpClient = HttpClientBuilder.create().build();
-		
+
 		HttpGet getRequest = new HttpGet(url);
 
 		getRequest.addHeader("accept", "application/json");
 
 		HttpResponse response;
-		List<String> result = null;
+		List<String> result = new ArrayList<String>();
 		try {
 			response = httpClient.execute(getRequest);
-		
-		if (response.getStatusLine().getStatusCode() != 200) {
-			throw new RuntimeException("Failed : HTTP error code : " + response.getStatusLine().getStatusCode());
-		}
 
-		BufferedReader br = new BufferedReader(new InputStreamReader((response.getEntity().getContent())));
+			if (response.getStatusLine().getStatusCode() != 200) {
+				throw new RuntimeException("Failed : HTTP error code : " + response.getStatusLine().getStatusCode());
+			}
 
-		String output = br.readLine();
+			BufferedReader br = new BufferedReader(new InputStreamReader((response.getEntity().getContent())));
 
-		JSONObject json = new JSONObject(output);
-		//System.out.println("JSON Object" + json);
+			String output = br.readLine();
 
-		
-		
-		String responsebody = json.getString("responseBody");
+			JSONObject json = new JSONObject(output);
+			// System.out.println("JSON Object" + json);
 
-		//System.out.println("\n responsebody: "+responsebody);
-		
-		JSONObject js = new JSONObject(responsebody);
+			String responsebody = json.getString("responseBody");
 
-		JSONArray string = (JSONArray) js.get("ResponseList");
-		
-		
-		
-		result = new ArrayList<String>();
-		for (int i = 0; i < string.length(); i++) {
-			JSONObject Object = string.getJSONObject(i);
-			 
-			 String s = Object.get("branch").toString();
+			// System.out.println("\n responsebody: "+responsebody);
+
+			JSONObject js = new JSONObject(responsebody);
+
+			JSONArray string = (JSONArray) js.get("ResponseList");
+
+			
+			for (int i = 0; i < string.length(); i++) {
+				JSONObject Object = string.getJSONObject(i);
+
+				String s = Object.get("branch").toString();
 
 				JSONObject bs = new JSONObject(s);
 				result.add(bs.get(branch).toString());
-				
+
 				result.add(Object.get(name).toString());
-						
-		}
-		
-		System.out.println("\n Available units "+result);
-		} catch (ClientProtocolException e) {
-			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in API Access -  "+e.getMessage(), session);
 
+			}
+			System.out.println("\n Available units " + result);
+			return result;
+		}catch (ClientProtocolException e) {
+			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR, "Error in API Access -  " + e.getMessage(), session);
+			result.add("noapi");
+			return result;
 		} catch (IOException e) {
-			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR,"Error in API Access  -  "+e.getMessage(), session);
-
+			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR, "Error in IO Access  -  " + e.getMessage(), session);
+			result.add("noinput");
+			return result;
+		} catch (Exception e) {
+			TraceInfo.trace(ITraceInfo.TRACE_LEVEL_ERROR, "Error in getting result  -  " + e.getMessage(), session);
+			return null;
 		}
-		return result;
+
 	}
-	
-	
-	
-	
-	
-	
-	
-	
+
 	public static void main(String[] args) throws ClientProtocolException, IOException {
 
 		ApiIntegration api = new ApiIntegration(null);
-	//	System.out.println("Region list: ");
-		//api.ApiIntegrationList("http://172.16.11.88:8010/BloodBank/regions/listOfRegions", "region");
-		
-		//System.out.println("\nSelect Region by Id: ");
-		//api.ApiIntegrationValue("http://172.16.11.88:8010/BloodBank/regions/selectRegionById/2");
+		// System.out.println("Region list: ");
+		// api.ApiIntegrationList("http://172.16.11.88:8010/BloodBank/regions/listOfRegions",
+		// "region");
 
-		
-		 //System.out.println("\nBranch List By RegionID: "); 
-		//List<String> branchlist = api.ApiIntegrationList("http://172.16.11.88:8010/BloodBank/branches/listOfBranchByRegionId/"+3,"branchLocation");
-		  
-		
-		//  System.err.println("\nSelect Branch By Id: "); 
-		  //api.ApiIntegrationValue("http://172.16.11.88:8010/BloodBank/branches/selectBranchById/1");
-		 
-		 //System.err.println("\nBloodGroup List: "); 
+		// System.out.println("\nSelect Region by Id: ");
+		// api.ApiIntegrationValue("http://172.16.11.88:8010/BloodBank/regions/selectRegionById/2");
+
+		// System.out.println("\nBranch List By RegionID: ");
+		// List<String> branchlist =
+		// api.ApiIntegrationList("http://172.16.11.88:8010/BloodBank/branches/listOfBranchByRegionId/"+3,"branchLocation");
+
+		// System.err.println("\nSelect Branch By Id: ");
+		// api.ApiIntegrationValue("http://172.16.11.88:8010/BloodBank/branches/selectBranchById/1");
+
+		// System.err.println("\nBloodGroup List: ");
 		// api.ApiIntegrationList("http://172.16.11.88:8010/BloodBank/bloodGroups/listOfBloodGroups","bloodgroup");
-		  
-		 
-		 //System.err.println("\nAvailable Units of Blood: "); 
+
+		// System.err.println("\nAvailable Units of Blood: ");
 		// api.ApiIntegrationValue("http://172.16.11.88:8010/BloodBank/bloodGroups/getAvailableUnits/Guindy/1");
-		 
-		api.ApiIntegrationListValues("http://172.16.11.88:8010/BloodBank/bloodGroups/listOfBranchAvailableUnits/1","availableUnits","branchLocation");
+
+		api.ApiIntegrationListValues("http://172.16.11.88:8010/BloodBank/bloodGroups/listOfBranchAvailableUnits/1",
+				"availableUnits", "branchLocation");
 	}
 }

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="120" package="flow.subflow.GetBloodUnits" version="5.0">
+    <ApplicationFlow nextObjectId="166" package="flow.subflow.GetBloodUnits" version="5.0">
         <FlowGraph>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.SymbolicNode" id="144" version="3.1">
+                <Property name="FlowNodeEditPart.WidgetX" value="517"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="50"/>
+                <Property name="ReferencedNodeID" value="56"/>
+            </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubEntry" id="1" version="3.1">
                 <Property name="Name" value="Begin"/>
                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.SubEntry" id="2" version="1.2">
@@ -9,7 +14,7 @@
                     <ChildItems>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.GoTo" id="3" version="1.2">
                             <ItemProperties>
-                                <Property name="LinkedNodeID" value="8"/>
+                                <Property name="LinkedNodeID" value="121"/>
                                 <Property name="Name" value="Start"/>
                             </ItemProperties>
                             <ChildItems/>
@@ -18,8 +23,8 @@
                 </FlowItem>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="113" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="390"/>
-                <Property name="FlowNodeEditPart.WidgetY" value="80"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="733"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="150"/>
                 <Property name="Name" value="NoMatchBloodGroup"/>
                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Data" id="114" version="1.2">
                     <ItemProperties/>
@@ -41,9 +46,9 @@
                 </FlowItem>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Form" id="50" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="270"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="563"/>
                 <Property name="FlowNodeEditPart.WidgetIcon" value="announce.gif"/>
-                <Property name="FlowNodeEditPart.WidgetY" value="220"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="374"/>
                 <Property name="Name" value="AvailableBranches"/>
                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Form" id="51" version="1.2">
                     <ItemProperties/>
@@ -70,14 +75,37 @@
                     </ChildItems>
                 </FlowItem>
             </FlowNode>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="148" version="3.1">
+                <Property name="FlowNodeEditPart.WidgetX" value="139"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="373"/>
+                <Property name="Name" value="AvailableBranchesAPI"/>
+                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Data" id="149" version="1.2">
+                    <ItemProperties/>
+                    <ChildItems>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.LocalVariables" id="150" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="LocalVariables"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="151" version="1.2">
+                            <ItemProperties>
+                                <Property name="LinkedNodeID" value="152"/>
+                                <Property name="Name" value="Default"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                    </ChildItems>
+                </FlowItem>
+            </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SymbolicNode" id="103" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="581"/>
-                <Property name="FlowNodeEditPart.WidgetY" value="113"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="945"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="189"/>
                 <Property name="ReferencedNodeID" value="56"/>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Menu" id="8" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="171"/>
-                <Property name="FlowNodeEditPart.WidgetY" value="37"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="519"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="121"/>
                 <Property name="Name" value="SelectBlood_group"/>
                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Menu" id="9" version="1.2">
                     <ItemProperties/>
@@ -136,13 +164,105 @@
                 </FlowItem>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubReturn" id="56" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="442"/>
-                <Property name="FlowNodeEditPart.WidgetY" value="220"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="780"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="373"/>
                 <Property name="Name" value="exit"/>
             </FlowNode>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="152" version="3.1">
+                <Property name="FlowNodeEditPart.WidgetX" value="357"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="373"/>
+                <Property name="Name" value="AvailableBranchesValid"/>
+                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Data" id="153" version="1.2">
+                    <ItemProperties/>
+                    <ChildItems>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.LocalVariables" id="154" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="LocalVariables"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="158" version="1.2">
+                            <ItemProperties>
+                                <Property name="Operator" value="="/>
+                                <Property name="LeftOperandID" value="ApiResults"/>
+                                <Property name="LeftOperandFieldID" value="AvailableBranches"/>
+                                <Property name="RightConstOperand" value="1"/>
+                            </ItemProperties>
+                            <ChildItems>
+                                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="159" version="1.2">
+                                    <ItemProperties/>
+                                    <ChildItems/>
+                                </FlowItem>
+                            </ChildItems>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ElseIfCondition" id="160" version="1.2">
+                            <ItemProperties>
+                                <Property name="Operator" value="="/>
+                                <Property name="LeftOperandID" value="ApiResults"/>
+                                <Property name="LeftOperandFieldID" value="AvailableBranches"/>
+                                <Property name="RightConstOperand" value="2"/>
+                            </ItemProperties>
+                            <ChildItems>
+                                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="161" version="1.2">
+                                    <ItemProperties/>
+                                    <ChildItems/>
+                                </FlowItem>
+                            </ChildItems>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ElseIfCondition" id="162" version="1.2">
+                            <ItemProperties>
+                                <Property name="Operator" value="="/>
+                                <Property name="LeftOperandID" value="ApiResults"/>
+                                <Property name="LeftOperandFieldID" value="AvailableBranches"/>
+                                <Property name="RightConstOperand" value="3"/>
+                            </ItemProperties>
+                            <ChildItems>
+                                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="163" version="1.2">
+                                    <ItemProperties/>
+                                    <ChildItems/>
+                                </FlowItem>
+                            </ChildItems>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ElseCondition" id="164" version="1.2">
+                            <ItemProperties/>
+                            <ChildItems>
+                                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="165" version="1.2">
+                                    <ItemProperties>
+                                        <Property name="LinkedNodeID" value="50"/>
+                                    </ItemProperties>
+                                    <ChildItems/>
+                                </FlowItem>
+                            </ChildItems>
+                        </FlowItem>
+                    </ChildItems>
+                </FlowItem>
+            </FlowNode>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="121" version="3.1">
+                <Property name="FlowNodeEditPart.WidgetX" value="122"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="49"/>
+                <Property name="Name" value="SelectBloodGroupAPI"/>
+                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Data" id="122" version="1.2">
+                    <ItemProperties/>
+                    <ChildItems>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.LocalVariables" id="123" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="LocalVariables"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="124" version="1.2">
+                            <ItemProperties>
+                                <Property name="LinkedNodeID" value="126"/>
+                                <Property name="Name" value="Default"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                    </ChildItems>
+                </FlowItem>
+            </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="108" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="391"/>
-                <Property name="FlowNodeEditPart.WidgetY" value="45"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="736"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="95"/>
                 <Property name="Name" value="NoInputBloodGroup"/>
                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Data" id="109" version="1.2">
                     <ItemProperties/>
@@ -163,51 +283,173 @@
                     </ChildItems>
                 </FlowItem>
             </FlowNode>
-            <NodeConnection id="17" version="1.2">
-                <SourceNode id="1"/>
-                <TargetNode id="8"/>
-                <Property name="Connection.SourceObjectID" value="3"/>
-                <Property name="Connection.TargetObjectID" value="8"/>
-            </NodeConnection>
-            <NodeConnection id="104" version="1.2">
-                <SourceNode id="8"/>
-                <TargetNode id="103"/>
-                <Property name="Connection.SourceObjectID" value="16"/>
-                <Property name="Connection.TargetObjectID" value="103"/>
-                <Bendpoint x="363" y="87"/>
-            </NodeConnection>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="126" version="3.1">
+                <Property name="FlowNodeEditPart.WidgetX" value="313"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="49"/>
+                <Property name="Name" value="SelectBloodGroupValid"/>
+                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Data" id="127" version="1.2">
+                    <ItemProperties/>
+                    <ChildItems>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.LocalVariables" id="128" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="LocalVariables"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="135" version="1.2">
+                            <ItemProperties>
+                                <Property name="Operator" value="="/>
+                                <Property name="LeftOperandID" value="ApiResults"/>
+                                <Property name="LeftOperandFieldID" value="BloodGroupList"/>
+                                <Property name="RightConstOperand" value="1"/>
+                            </ItemProperties>
+                            <ChildItems>
+                                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="136" version="1.2">
+                                    <ItemProperties>
+                                        <Property name="LinkedNodeID" value="144"/>
+                                    </ItemProperties>
+                                    <ChildItems/>
+                                </FlowItem>
+                            </ChildItems>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ElseIfCondition" id="137" version="1.2">
+                            <ItemProperties>
+                                <Property name="Operator" value="="/>
+                                <Property name="LeftOperandID" value="ApiResults"/>
+                                <Property name="LeftOperandFieldID" value="BloodGroupList"/>
+                                <Property name="RightConstOperand" value="2"/>
+                            </ItemProperties>
+                            <ChildItems>
+                                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="138" version="1.2">
+                                    <ItemProperties>
+                                        <Property name="LinkedNodeID" value="144"/>
+                                    </ItemProperties>
+                                    <ChildItems/>
+                                </FlowItem>
+                            </ChildItems>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ElseIfCondition" id="139" version="1.2">
+                            <ItemProperties>
+                                <Property name="Operator" value="="/>
+                                <Property name="LeftOperandID" value="ApiResults"/>
+                                <Property name="LeftOperandFieldID" value="BloodGroupList"/>
+                                <Property name="RightConstOperand" value="3"/>
+                            </ItemProperties>
+                            <ChildItems>
+                                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="140" version="1.2">
+                                    <ItemProperties>
+                                        <Property name="LinkedNodeID" value="144"/>
+                                    </ItemProperties>
+                                    <ChildItems/>
+                                </FlowItem>
+                            </ChildItems>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ElseCondition" id="141" version="1.2">
+                            <ItemProperties/>
+                            <ChildItems>
+                                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="142" version="1.2">
+                                    <ItemProperties>
+                                        <Property name="LinkedNodeID" value="8"/>
+                                    </ItemProperties>
+                                    <ChildItems/>
+                                </FlowItem>
+                            </ChildItems>
+                        </FlowItem>
+                    </ChildItems>
+                </FlowItem>
+            </FlowNode>
             <NodeConnection id="107" version="1.2">
                 <SourceNode id="50"/>
                 <TargetNode id="56"/>
                 <Property name="Connection.SourceObjectID" value="53"/>
                 <Property name="Connection.TargetObjectID" value="56"/>
-                <Bendpoint x="412" y="162"/>
-            </NodeConnection>
-            <NodeConnection id="117" version="1.2">
-                <SourceNode id="8"/>
-                <TargetNode id="113"/>
-                <Property name="Connection.SourceObjectID" value="101"/>
-                <Property name="Connection.TargetObjectID" value="113"/>
-                <Bendpoint x="362" y="80"/>
-            </NodeConnection>
-            <NodeConnection id="118" version="1.2">
-                <SourceNode id="8"/>
-                <TargetNode id="108"/>
-                <Property name="Connection.SourceObjectID" value="98"/>
-                <Property name="Connection.TargetObjectID" value="108"/>
-                <Bendpoint x="362" y="55"/>
+                <Bendpoint x="740" y="383"/>
             </NodeConnection>
             <NodeConnection id="119" version="1.2">
                 <SourceNode id="108"/>
                 <TargetNode id="103"/>
                 <Property name="Connection.SourceObjectID" value="111"/>
                 <Property name="Connection.TargetObjectID" value="103"/>
+                <Bendpoint x="920" y="135"/>
+                <Bendpoint x="709" y="108"/>
+                <Bendpoint x="570" y="113"/>
             </NodeConnection>
             <NodeConnection id="120" version="1.2">
                 <SourceNode id="113"/>
                 <TargetNode id="103"/>
                 <Property name="Connection.SourceObjectID" value="116"/>
                 <Property name="Connection.TargetObjectID" value="103"/>
+                <Bendpoint x="920" y="175"/>
+                <Bendpoint x="702" y="140"/>
+                <Bendpoint x="838" y="184"/>
+            </NodeConnection>
+            <NodeConnection id="125" version="1.2">
+                <SourceNode id="1"/>
+                <TargetNode id="121"/>
+                <Property name="Connection.SourceObjectID" value="3"/>
+                <Property name="Connection.TargetObjectID" value="121"/>
+            </NodeConnection>
+            <NodeConnection id="130" version="1.2">
+                <SourceNode id="121"/>
+                <TargetNode id="126"/>
+                <Property name="Connection.SourceObjectID" value="124"/>
+                <Property name="Connection.TargetObjectID" value="126"/>
+            </NodeConnection>
+            <NodeConnection id="131" version="1.2">
+                <SourceNode id="8"/>
+                <TargetNode id="113"/>
+                <Property name="Connection.SourceObjectID" value="101"/>
+                <Property name="Connection.TargetObjectID" value="113"/>
+            </NodeConnection>
+            <NodeConnection id="132" version="1.2">
+                <SourceNode id="8"/>
+                <TargetNode id="108"/>
+                <Property name="Connection.SourceObjectID" value="98"/>
+                <Property name="Connection.TargetObjectID" value="108"/>
+            </NodeConnection>
+            <NodeConnection id="133" version="1.2">
+                <SourceNode id="8"/>
+                <TargetNode id="103"/>
+                <Property name="Connection.SourceObjectID" value="16"/>
+                <Property name="Connection.TargetObjectID" value="103"/>
+                <Bendpoint x="706" y="160"/>
+            </NodeConnection>
+            <NodeConnection id="143" version="1.2">
+                <SourceNode id="126"/>
+                <TargetNode id="8"/>
+                <Property name="Connection.SourceObjectID" value="142"/>
+                <Property name="Connection.TargetObjectID" value="8"/>
+            </NodeConnection>
+            <NodeConnection id="145" version="1.2">
+                <SourceNode id="126"/>
+                <TargetNode id="144"/>
+                <Property name="Connection.SourceObjectID" value="136"/>
+                <Property name="Connection.TargetObjectID" value="144"/>
+                <Bendpoint x="478" y="57"/>
+            </NodeConnection>
+            <NodeConnection id="146" version="1.2">
+                <SourceNode id="126"/>
+                <TargetNode id="144"/>
+                <Property name="Connection.SourceObjectID" value="138"/>
+                <Property name="Connection.TargetObjectID" value="144"/>
+            </NodeConnection>
+            <NodeConnection id="147" version="1.2">
+                <SourceNode id="126"/>
+                <TargetNode id="144"/>
+                <Property name="Connection.SourceObjectID" value="140"/>
+                <Property name="Connection.TargetObjectID" value="144"/>
+            </NodeConnection>
+            <NodeConnection id="157" version="1.2">
+                <SourceNode id="148"/>
+                <TargetNode id="152"/>
+                <Property name="Connection.SourceObjectID" value="151"/>
+                <Property name="Connection.TargetObjectID" value="152"/>
+            </NodeConnection>
+            <NodeConnection id="166" version="1.2">
+                <SourceNode id="152"/>
+                <TargetNode id="50"/>
+                <Property name="Connection.SourceObjectID" value="165"/>
+                <Property name="Connection.TargetObjectID" value="50"/>
             </NodeConnection>
         </FlowGraph>
         <ProjectEventTypes/>

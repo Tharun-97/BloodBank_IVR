@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <projectvariables>
+    <variable factoryID="" name="ApiResults:AvailableBranches" owner="" type="" value="0" version="1.0"/>
+    <variable factoryID="" name="ApiResults:AvailableUnits" owner="" type="" value="0" version="1.0"/>
+    <variable factoryID="" name="ApiResults:BloodGroupList" owner="" type="" value="0" version="1.0"/>
     <variable factoryID="" name="ApiResults:BranchList" owner="" type="" value="0" version="1.0"/>
     <variable factoryID="" name="ApiResults:RegionList" owner="" type="" value="0" version="1.0"/>
     <variable factoryID="" name="AudioURLs:BloodGroupSelect" owner="" type="" value="http://172.16.11.88:8090/IVR_Audios/BloodBank/BloodGroupSelect.wav" version="1.0"/>

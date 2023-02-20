@@ -289,6 +289,46 @@ Copyright 2004-2021 Avaya Inc.
         <servlet-name>NoBranch</servlet-name>
         <servlet-class>flow.NoBranch</servlet-class>
     </servlet>
+    <servlet id="SAGE-callflow-servlet_main_893">
+        <servlet-name>BloodGroupAPI</servlet-name>
+        <servlet-class>flow.BloodGroupAPI</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_897">
+        <servlet-name>BloodGroupValid</servlet-name>
+        <servlet-class>flow.BloodGroupValid</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_917">
+        <servlet-name>AvailableUnitsAPI</servlet-name>
+        <servlet-class>flow.AvailableUnitsAPI</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_922">
+        <servlet-name>AvailableUnitsValid</servlet-name>
+        <servlet-class>flow.AvailableUnitsValid</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_934">
+        <servlet-name>NoUnits</servlet-name>
+        <servlet-class>flow.NoUnits</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_GetBloodUnits_121">
+        <servlet-name>GetBloodUnits-SelectBloodGroupAPI</servlet-name>
+        <servlet-class>flow.subflow.GetBloodUnits.SelectBloodGroupAPI</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_GetBloodUnits_126">
+        <servlet-name>GetBloodUnits-SelectBloodGroupValid</servlet-name>
+        <servlet-class>flow.subflow.GetBloodUnits.SelectBloodGroupValid</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1004">
+        <servlet-name>GetBloodUnitsValid</servlet-name>
+        <servlet-class>flow.GetBloodUnitsValid</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_GetBloodUnits_148">
+        <servlet-name>GetBloodUnits-AvailableBranchesAPI</servlet-name>
+        <servlet-class>flow.subflow.GetBloodUnits.AvailableBranchesAPI</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_GetBloodUnits_152">
+        <servlet-name>GetBloodUnits-AvailableBranchesValid</servlet-name>
+        <servlet-class>flow.subflow.GetBloodUnits.AvailableBranchesValid</servlet-class>
+    </servlet>
     <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
         <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
         <url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
@@ -497,6 +537,46 @@ Copyright 2004-2021 Avaya Inc.
     <servlet-mapping id="SAGE-callflow-servletmapping_main_882">
         <servlet-name>NoBranch</servlet-name>
         <url-pattern>/NoBranch</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_893">
+        <servlet-name>BloodGroupAPI</servlet-name>
+        <url-pattern>/BloodGroupAPI</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_897">
+        <servlet-name>BloodGroupValid</servlet-name>
+        <url-pattern>/BloodGroupValid</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_917">
+        <servlet-name>AvailableUnitsAPI</servlet-name>
+        <url-pattern>/AvailableUnitsAPI</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_922">
+        <servlet-name>AvailableUnitsValid</servlet-name>
+        <url-pattern>/AvailableUnitsValid</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_934">
+        <servlet-name>NoUnits</servlet-name>
+        <url-pattern>/NoUnits</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_GetBloodUnits_121">
+        <servlet-name>GetBloodUnits-SelectBloodGroupAPI</servlet-name>
+        <url-pattern>/GetBloodUnits-SelectBloodGroupAPI</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_GetBloodUnits_126">
+        <servlet-name>GetBloodUnits-SelectBloodGroupValid</servlet-name>
+        <url-pattern>/GetBloodUnits-SelectBloodGroupValid</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1004">
+        <servlet-name>GetBloodUnitsValid</servlet-name>
+        <url-pattern>/GetBloodUnitsValid</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_GetBloodUnits_148">
+        <servlet-name>GetBloodUnits-AvailableBranchesAPI</servlet-name>
+        <url-pattern>/GetBloodUnits-AvailableBranchesAPI</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_GetBloodUnits_152">
+        <servlet-name>GetBloodUnits-AvailableBranchesValid</servlet-name>
+        <url-pattern>/GetBloodUnits-AvailableBranchesValid</url-pattern>
     </servlet-mapping>
     
     
